@@ -1,0 +1,36 @@
+/*===================================================
+ フッター
+====================================================*/
+.footer {
+  .container {
+    &.main {
+      position: relative;
+      @include media-breakpoint-down(md) {
+        padding: 0;
+      }
+    }
+  }
+
+  &__info {
+    margin-bottom: 4rem;
+    @include media-breakpoint-down(md) {
+      margin-bottom: 3rem;
+    }
+
+    &__address {
+      margin: 1.75rem 0;
+    }
+  }
+
+  &__sns {
+    @include media-breakpoint-down(md) {
+      padding-bottom: 3rem;
+    }
+  }
+
+  &__pagetop {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+}

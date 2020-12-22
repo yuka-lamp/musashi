@@ -1,10 +1,184 @@
 /*===================================================
  ヘッダー
 ====================================================*/
-.header {
-  border-top: 8px solid $primary;
-  padding: 0 2rem;
-  &__nav {
+main {
+  // ヘッダー分の余白
+  margin-top: 103px;
+}
 
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  border-top: 8px solid $primary;
+  padding: 1.5rem 2rem 0;
+  z-index: 99;
+  @include media-breakpoint-down(md) {
+    padding: 0;
+    border-top: 4px solid $primary;
+  }
+
+  .navbar {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    // &-list {
+    //   // メニュー開いたときの背景
+    //   &::before {
+    //     content: "";
+    //     display: block;
+    //     width: 100%;
+    //     height: 100%;
+    //     background: #d45b34;
+    //     opacity: 0;
+    //     position: fixed;
+    //     top: 0;
+    //     left: 0;
+    //     transition: transform 0.2s ease-in-out;
+    //     z-index: -1;
+    //   }
+    // }
+    &-brand {
+      &-img {
+        width: 195.37px;
+        height: 58.81px;
+        @include media-breakpoint-down(md) {
+          width: 132.89px;
+          height: 40px;
+          margin: 10px 0 0 10px;
+        }
+      }
+    }
+    // ハンバーガーメニュー
+    &-toggler {
+      position: absolute;
+      top: 0;
+      right: 0;
+      background: $primary;
+      width: 64px;
+      height: 59px;
+      border-radius: 0;
+
+      &-icon {
+        position: relative;
+        width: 20px;
+        height: 2px;
+        background: $white;
+        margin-bottom: 3px;
+
+        &::before {
+          content: '';
+          width: 20px;
+          height: 2px;
+          position: absolute;
+          top: 7px;
+          left: 0;
+          background: $white;
+        }
+
+        &::after {
+          content: '';
+          width: 20px;
+          height: 2px;
+          position: absolute;
+          left: 0;
+          bottom: 7px;
+          background: $white;
+        }
+      }
+
+      p {
+        font-size: 0.625rem;
+        margin-top: 5px;
+      }
+    }
+
+    &-collapse {
+      margin: 0;
+      padding: 0;
+      @include media-breakpoint-down(md) {
+        padding: 3rem 0;
+      }
+    }
+    // ナビ
+    &-nav {
+      .nav {
+        &-item {
+          @include media-breakpoint-down(md) {
+            padding: 0!important;
+            margin-bottom: 10px;
+          }
+        }
+
+        &-link {
+          text-align: center;
+          font-size: 1rem;
+          font-family: 'Sawarabi Mincho', sans-serif;
+          padding: 0;
+          @include media-breakpoint-down(md) {
+            width: 70%;
+            margin: 0 auto;
+            font-size: 1.25rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+          }
+
+          .en {
+            display: block;
+            font-size: 0.75rem;
+            font-family: 'Questrial', 'Noto Sans JP', sans-serif;
+            text-transform: capitalize;
+            color: $primary;
+            letter-spacing: 0.14em;
+          }
+        }
+      }
+    }
+  }
+  // テイクアウトボタン
+  &__btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url("../images/btn_takeout_bg@2x.png");
+    background-size: cover;
+    width: 217px;
+    height: 58px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    color: $white;
+    font-size: 1rem;
+    @include media-breakpoint-down(md) {
+      top: 8px;
+      right: 74px;
+      width: 112px;
+      height: 44px;
+      font-size: 0.6875rem;
+    }
+
+    &-icon {
+      width: 32.52px;
+      height: 29.2px;
+      margin-right: 12px;
+      @include media-breakpoint-down(md) {
+        width: 25.52px;
+        height: 22.91px;
+        margin-right: 9px;
+      }
+    }
+
+    br {
+      display: none;
+      @include media-breakpoint-down(md) {
+        display: none;
+      }
+    }
+
+    &:hover {
+      color: $white;
+    }
   }
 }
