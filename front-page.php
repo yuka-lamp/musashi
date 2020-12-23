@@ -11,8 +11,8 @@ get_header(); ?>
       <?php
       $args = [
           'posts_per_page' => 4,
-          'post_type' => 'menu',
-          'taxonomy' => 'toku',
+          'post_type' => 'post',
+          'taxonomy' => 'news',
           'orderby' => 'date',
           'order' => 'ASC',
       ];

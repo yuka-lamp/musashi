@@ -5,7 +5,7 @@ main {
   // ヘッダー分の余白
   padding-top: 112px;
   @include media-breakpoint-down(md) {
-    margin-top: 63px;
+    padding-top: 63px;
   }
 }
 

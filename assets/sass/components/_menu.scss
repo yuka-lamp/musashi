@@ -109,6 +109,7 @@
     }
     // 商品ごとの表示
     &-item {
+      position: relative;
       width: 18%;
       margin-bottom: 5px;
       @include media-breakpoint-down(md) {
@@ -119,6 +120,14 @@
         border-top: 1px solid $dark;
         margin-top: 10px;
         padding: 1rem 0;
+      }
+
+      .tag {
+        position: absolute;
+        top: 5px;
+        left: 5px;
+        padding: 2px 7px;
+        font-size: 0.750rem;
       }
 
       .cap {

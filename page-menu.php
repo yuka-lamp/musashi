@@ -40,25 +40,27 @@ get_header(); the_post(); ?>
       <div class="menu__list-inner d-flex flex-wrap justify-content-between">
         <?php
         $args = [
-          'posts_per_page' => -1,
-          'post_type' => array('menu_item'),
-              'tax_query' => array(
-                  'relation' => 'OR',
-                  array(
-                      'taxonomy' => 'side',
-                  ),
-              ),
-          'orderby' => 'date',
-          'order' => 'ASC',
+            'posts_per_page' => -1,
+            'post_type' => 'menu_item',
+            'taxonomy' => 'toku',
+            'orderby' => 'date',
+            'order' => 'ASC',
         ];
         $my_posts = get_posts($args);
         foreach ($my_posts as $post):
         setup_postdata($post);
         $id = get_the_ID();
+        $thumbnail = get_the_post_thumbnail_url($id, 'large');
         $ttl = get_the_title();
+        $permalink = get_the_permalink();
         ?>
         <!-- ▼ ループするコンテンツ -->
         <div class="menu__list-item">
+          <!-- ▼ タグ -->
+          <?php if(get_field('tag') == 'はい'): // 入力がある場合 ?>
+          <p class="tag mincho bg-danger text-white">期間限定</p>
+          <?php endif; ?>
+          <!-- ▲ タグ -->
           <!-- ▼ 商品写真 -->
           <div class="menu__list-item-img">
             <?php if(post_custom('image')):  // 画像がある場合 ?>
@@ -68,14 +70,14 @@ get_header(); the_post(); ?>
             <?php endif; ?>
           </div>
           <!-- ▲ 商品写真 -->
-          <!-- ▼ 商品画像 -->
+          <!-- ▼ 商品説明 -->
           <div class="menu__list-item-text text-center">
             <p class="mincho m-0"><?php echo $ttl ?></p>
             <?php if(post_custom('cap')): // 入力がある場合 ?>
             <p class="cap"><?php echo get_field('cap'); ?></p>
             <?php endif; ?>
           </div>
-          <!-- ▲ 商品画像 -->
+          <!-- ▲ 商品説明 -->
         </div>
         <!-- ▲ ループするコンテンツ -->
         <?php endforeach; wp_reset_postdata(); ?>
@@ -124,14 +126,14 @@ get_header(); the_post(); ?>
             <?php endif; ?>
           </div>
           <!-- ▲ 商品写真 -->
-          <!-- ▼ 商品画像 -->
+          <!-- ▼ 商品説明 -->
           <div class="menu__list-item-text text-center">
             <p class="mincho m-0"><?php echo $ttl ?></p>
             <?php if(post_custom('cap')): // 入力がある場合 ?>
             <p class="cap"><?php echo get_field('cap'); ?></p>
             <?php endif; ?>
           </div>
-          <!-- ▲ 商品画像 -->
+          <!-- ▲ 商品説明 -->
         </div>
         <!-- ▲ ループするコンテンツ -->
         <?php endforeach; wp_reset_postdata(); ?>
@@ -180,14 +182,14 @@ get_header(); the_post(); ?>
             <?php endif; ?>
           </div>
           <!-- ▲ 商品写真 -->
-          <!-- ▼ 商品画像 -->
+          <!-- ▼ 商品説明 -->
           <div class="menu__list-item-text text-center">
             <p class="mincho m-0"><?php echo $ttl ?></p>
             <?php if(post_custom('cap')): // 入力がある場合 ?>
             <p class="cap"><?php echo get_field('cap'); ?></p>
             <?php endif; ?>
           </div>
-          <!-- ▲ 商品画像 -->
+          <!-- ▲ 商品説明 -->
         </div>
         <!-- ▲ ループするコンテンツ -->
         <?php endforeach; wp_reset_postdata(); ?>
@@ -235,14 +237,14 @@ get_header(); the_post(); ?>
             <?php endif; ?>
           </div>
           <!-- ▲ 商品写真 -->
-          <!-- ▼ 商品画像 -->
+          <!-- ▼ 商品説明 -->
           <div class="menu__list-item-text text-center">
             <p class="mincho m-0"><?php echo $ttl ?></p>
             <?php if(post_custom('cap')): // 入力がある場合 ?>
             <p class="cap"><?php echo get_field('cap'); ?></p>
             <?php endif; ?>
           </div>
-          <!-- ▲ 商品画像 -->
+          <!-- ▲ 商品説明 -->
         </div>
         <!-- ▲ ループするコンテンツ -->
         <?php endforeach; wp_reset_postdata(); ?>
