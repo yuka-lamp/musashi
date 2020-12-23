@@ -33,7 +33,7 @@ get_header(); ?>
               <img class="w-100" src="<?php echo $thumbnail; ?>" alt="<?php echo $ttl ?>">
               <?php else: ?>
                 <!-- サムネイルがなかったら -->
-              <img class="w-100" src="<?php echo $wp_url ?>/dist/images/news_imgnone.png" alt="<?php get_the_title() ?>" srcset="<?php echo $wp_url ?>/dist/images/news_imgnone.png 1x, <?php echo $wp_url ?>/dist/images/news_imgnone@2x.png 2x">
+              <img class="w-100" src="<?php echo $wp_url ?>/dist/images/news_imgnone.png" alt="noimage" srcset="<?php echo $wp_url ?>/dist/images/news_imgnone.png 1x, <?php echo $wp_url ?>/dist/images/news_imgnone@2x.png 2x">
             <?php endif; ?>
           </a>
         </div>

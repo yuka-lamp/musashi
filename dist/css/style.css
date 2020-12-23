@@ -12034,13 +12034,24 @@ ul {
   font-family: 'Sawarabi Mincho', sans-serif; }
 
 .f-28 {
-  font-size: 1.75rem !important; }
+  font-size: 1.75rem !important;
+  line-height: 3.4rem !important; }
   @media (max-width: 991.98px) {
     .f-28 {
-      font-size: 1.5rem !important; } }
+      font-size: 1.5rem !important;
+      line-height: 2.8rem !important; } }
+
+.f-26 {
+  font-size: 1.625rem !important;
+  line-height: 3.1rem !important; }
+  @media (max-width: 991.98px) {
+    .f-26 {
+      font-size: 1.5rem !important;
+      line-height: 2.6rem !important; } }
 
 .f-24 {
-  font-size: 1.5rem !important; }
+  font-size: 1.5rem !important;
+  line-height: 2.6rem !important; }
   @media (max-width: 991.98px) {
     .f-24 {
       font-size: 1.125rem !important; } }
@@ -12079,7 +12090,7 @@ ul {
   line-height: 2.4em; }
   @media (max-width: 991.98px) {
     .lh-large {
-      line-height: 2em; } }
+      line-height: 2.2em; } }
 
 .lh-small {
   line-height: 1.75em; }
@@ -12125,7 +12136,7 @@ ul {
  ヘッダー
 ====================================================*/
 main {
-  margin-top: 112px; }
+  padding-top: 112px; }
   @media (max-width: 991.98px) {
     main {
       margin-top: 63px; } }
@@ -12135,7 +12146,7 @@ main {
   top: 0;
   left: 0;
   border-top: 8px solid #d45b34;
-  padding: 1.5rem 2rem 13px 2rem;
+  padding: 1.4rem 2rem 13px 2rem;
   z-index: 99; }
   @media (max-width: 991.98px) {
     .header {
@@ -12257,31 +12268,33 @@ main {
 /*===================================================
  フッター
 ====================================================*/
-.footer .container.main {
-  position: relative; }
+.footer {
+  margin-top: 6rem; }
   @media (max-width: 991.98px) {
-    .footer .container.main {
-      padding: 0; } }
-
-.footer__info {
-  margin-bottom: 4rem; }
-  @media (max-width: 991.98px) {
-    .footer__info {
-      margin-bottom: 3rem; } }
-  .footer__info__address {
-    margin: 1.75rem 0; }
-
-.footer__sns {
-  text-align: right; }
-  @media (max-width: 991.98px) {
-    .footer__sns {
-      padding-bottom: 3rem;
-      text-align: left; } }
-
-.footer__pagetop {
-  position: absolute;
-  right: 0;
-  bottom: 0; }
+    .footer {
+      margin-top: 4rem; } }
+  .footer .container.main {
+    position: relative; }
+    @media (max-width: 991.98px) {
+      .footer .container.main {
+        padding: 0; } }
+  .footer__info {
+    margin-bottom: 4rem; }
+    @media (max-width: 991.98px) {
+      .footer__info {
+        margin-bottom: 3rem; } }
+    .footer__info__address {
+      margin: 1.75rem 0; }
+  .footer__sns {
+    text-align: right; }
+    @media (max-width: 991.98px) {
+      .footer__sns {
+        padding-bottom: 3rem;
+        text-align: left; } }
+  .footer__pagetop {
+    position: absolute;
+    right: 0;
+    bottom: 0; }
 
 /*===================================================
  メインビジュアル - トップページ
@@ -12587,6 +12600,82 @@ main {
       background: url("../images/deco_2@2x.png");
       background-size: cover;
       z-index: -1; } }
+
+/*===================================================
+ こだわり
+====================================================*/
+.about_feature {
+  width: 82%;
+  margin: 0 auto;
+  padding: 6rem 0; }
+  @media (max-width: 991.98px) {
+    .about_feature {
+      width: 100%;
+      padding: 4rem 0; } }
+  .about_feature-text {
+    position: relative;
+    padding: 4rem 0; }
+    @media (max-width: 991.98px) {
+      .about_feature-text {
+        padding: 0 15px 2rem; } }
+    .about_feature-text::before {
+      content: "";
+      width: 194px;
+      height: 113px;
+      position: absolute;
+      top: 30px;
+      left: -100px;
+      background: url("../images/deco_2@2x.png");
+      background-size: cover;
+      z-index: -1; }
+      @media (max-width: 991.98px) {
+        .about_feature-text::before {
+          top: -40px;
+          left: -90px; } }
+  @media (max-width: 991.98px) {
+    .about_feature-img {
+      padding-right: 0; } }
+
+.about__interior {
+  width: 100%;
+  height: 485px; }
+  @media (max-width: 991.98px) {
+    .about__interior {
+      height: 288px; } }
+  .about__interior img {
+    height: 100%;
+    object-fit: cover; }
+
+.about__point-item {
+  flex-flow: row-reverse; }
+  .about__point-item:nth-child(2n) {
+    flex-flow: row; }
+  .about__point-item-text {
+    position: relative; }
+    .about__point-item-text::before {
+      content: "";
+      width: 88.42px;
+      height: 55.82px;
+      position: absolute;
+      top: -30px;
+      left: 40px;
+      background: url("../images/deco_4@2x.png");
+      background-size: cover;
+      z-index: -1; }
+      @media (max-width: 991.98px) {
+        .about__point-item-text::before {
+          top: 60px;
+          left: 16px; } }
+    .about__point-item-text-inner {
+      width: 80%;
+      margin: 0 auto; }
+      @media (max-width: 991.98px) {
+        .about__point-item-text-inner {
+          width: 100%;
+          margin: 7rem 0 3rem; } }
+  @media (max-width: 1199.98px) {
+    .about__point-item-img {
+      margin-top: 3rem; } }
 
 /*===================================================
  お知らせ + 取り組み

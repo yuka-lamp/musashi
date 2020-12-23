@@ -47,13 +47,25 @@ ul {
 
 .f-28 {
   font-size: 1.75rem!important;
+  line-height: 3.4rem!important;
   @include media-breakpoint-down(md) {
     font-size: 1.5rem!important;
+    line-height: 2.8rem!important;
+  }
+}
+
+.f-26 {
+  font-size: 1.625rem!important;
+  line-height: 3.1rem!important;
+  @include media-breakpoint-down(md) {
+    font-size: 1.5rem!important;
+    line-height: 2.6rem!important;
   }
 }
 
 .f-24 {
   font-size: 1.5rem!important;
+  line-height: 2.6rem!important;
   @include media-breakpoint-down(md) {
     font-size: 1.125rem!important;
   }
@@ -95,7 +107,7 @@ ul {
 .lh-large {
   line-height: 2.4em;
   @include media-breakpoint-down(md) {
-    line-height: 2em;
+    line-height: 2.2em;
   }
 }
 

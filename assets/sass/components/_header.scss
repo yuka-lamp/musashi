@@ -3,7 +3,7 @@
 ====================================================*/
 main {
   // ヘッダー分の余白
-  margin-top: 112px;
+  padding-top: 112px;
   @include media-breakpoint-down(md) {
     margin-top: 63px;
   }
@@ -14,7 +14,7 @@ main {
   top: 0;
   left: 0;
   border-top: 8px solid $primary;
-  padding: 1.5rem 2rem 13px 2rem;
+  padding: 1.4rem 2rem 13px 2rem;
   z-index: 99;
   @include media-breakpoint-down(md) {
     padding: 0;

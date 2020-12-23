@@ -1,0 +1,105 @@
+/*===================================================
+ こだわり
+====================================================*/
+.about {
+  &_feature {
+    // 導入
+    width: 82%;
+    margin: 0 auto;
+    padding: 6rem 0;
+    @include media-breakpoint-down(md) {
+      width: 100%;
+      padding: 4rem 0;
+    }
+
+    &-text {
+      position: relative;
+      padding: 4rem 0;
+      @include media-breakpoint-down(md) {
+        padding: 0 15px 2rem;
+      }
+
+      &::before {
+        content: "";
+        width: 194px;
+        height: 113px;
+        position: absolute;
+        top: 30px;
+        left: -100px;
+        background: url("../images/deco_2@2x.png");
+        background-size: cover;
+        z-index: -1;
+        @include media-breakpoint-down(md) {
+          top: -40px;
+          left: -90px;
+        }
+      }
+    }
+
+    &-img {
+      @include media-breakpoint-down(md) {
+        padding-right: 0;
+      }
+    }
+  }
+
+  &__interior {
+    // 内観写真
+    width: 100%;
+    height: 485px;
+    @include media-breakpoint-down(md) {
+      height: 288px;
+    }
+
+    img {
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  &__point {
+    // むさしの特徴
+    &-item {
+      flex-flow: row-reverse;
+
+      &:nth-child(2n) {
+        flex-flow: row;
+      }
+
+      &-text {
+        position: relative;
+
+        &::before {
+          content: "";
+          width: 88.42px;
+          height: 55.82px;
+          position: absolute;
+          top: -30px;
+          left: 40px;
+          background: url("../images/deco_4@2x.png");
+          background-size: cover;
+          z-index: -1;
+          @include media-breakpoint-down(md) {
+            top: 60px;
+            left: 16px;
+          }
+        }
+
+        &-inner {
+          width: 80%;
+          margin: 0 auto;
+          @include media-breakpoint-down(md) {
+            width: 100%;
+            margin: 7rem 0 3rem;
+          }
+        }
+      }
+
+      &-img {
+        @include media-breakpoint-down(lg) {
+          margin-top: 3rem;
+        }
+      }
+    }
+  }
+}
