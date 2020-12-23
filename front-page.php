@@ -11,8 +11,8 @@ get_header(); ?>
       <?php
       $args = [
           'posts_per_page' => 4,
-          'post_type' => 'post',
-          'category' => 'news',
+          'post_type' => 'menu',
+          'taxonomy' => 'toku',
           'orderby' => 'date',
           'order' => 'ASC',
       ];
@@ -24,7 +24,7 @@ get_header(); ?>
       $ttl = get_the_title();
       $permalink = get_the_permalink();
       ?>
-      <!-- ▼ 繰り返すコンテンツ -->
+      <!-- ▼ ループするコンテンツ -->
       <div class="news-img__item">
         <div class="news-img__item__img">
           <a class="d-block" hraf="<?php echo $permalink ?>">
@@ -41,7 +41,7 @@ get_header(); ?>
           <a class="d-block text-weight-bold mt-4 mb-3" hraf="<?php echo $permalink ?>"><?php echo $ttl ?></a>
         </div>
       </div>
-      <!-- ▲ 繰り返すコンテンツ -->
+      <!-- ▲ ループするコンテンツ -->
       <?php endforeach; wp_reset_postdata(); ?>
     </div>
     <!-- ▲ 記事の取得 -->
@@ -94,7 +94,7 @@ get_header(); ?>
       <div class="top-shop-item-img">
         <img class="w-100" src="<?php echo $wp_url ?>/dist/images/top_shop_1.png" alt="三条本店 外観" srcset="<?php echo $wp_url ?>/dist/images/top_shop_1.png 1x, <?php echo $wp_url ?>/dist/images/top_shop_1@2x.png 2x">
       </div>
-      <div class="top-shop-item-text">
+      <div class="top-shop-item-text deco-1">
         <div class="top-shop-item-text-inner">
           <h3 class="mincho f-18 mb-4 text-dark">三条本店</h3>
           <p class="m-0">〒604-8005<br>京都市中京区河原町三条上ル恵比須町440</p>
@@ -108,7 +108,7 @@ get_header(); ?>
       <div class="top-shop-item-img">
         <img class="w-100" src="<?php echo $wp_url ?>/dist/images/top_shop_2.png" alt="京都駅八条口店 外観" srcset="<?php echo $wp_url ?>/dist/images/top_shop_2.png 1x, <?php echo $wp_url ?>/dist/images/top_shop_2@2x.png 2x">
       </div>
-      <div class="top-shop-item-text">
+      <div class="top-shop-item-text deco-1">
         <div class="top-shop-item-text-inner">
           <h3 class="mincho f-18 mb-4 text-dark">京都駅八条口店</h3>
           <p class="m-0">〒600-8214<br>京都市下京区東塩小路高倉町8-3京都駅八条口構内 アスティロード京都おもてなし小路</p>
@@ -122,7 +122,7 @@ get_header(); ?>
       <div class="top-shop-item-img">
         <img class="w-100" src="<?php echo $wp_url ?>/dist/images/top_shop_3.png" alt="上堀川店 外観" srcset="<?php echo $wp_url ?>/dist/images/top_shop_3.png 1x, <?php echo $wp_url ?>/dist/images/top_shop_3@2x.png 2x">
       </div>
-      <div class="top-shop-item-text">
+      <div class="top-shop-item-text deco-1">
         <div class="top-shop-item-text-inner">
           <h3 class="mincho f-18 mb-4 text-dark">上堀川店</h3>
           <p class="m-0">〒603-8115<br>京都府京都市北区紫竹下本町28</p>
@@ -136,7 +136,7 @@ get_header(); ?>
       <div class="top-shop-item-img">
         <img class="w-100" src="<?php echo $wp_url ?>/dist/images/top_shop_4.png" alt="Porta店 外観" srcset="<?php echo $wp_url ?>/dist/images/top_shop_4.png 1x, <?php echo $wp_url ?>/dist/images/top_shop_4@2x.png 2x">
       </div>
-      <div class="top-shop-item-text">
+      <div class="top-shop-item-text deco-1">
         <div class="top-shop-item-text-inner">
           <h3 class="mincho f-18 mb-4 text-dark">Porta店</h3>
           <p class="m-0">京都市下京区烏丸通塩小路下る東塩小路町902番地<br>京都駅前地下街ポルタ内</p>
@@ -147,7 +147,7 @@ get_header(); ?>
     <!-- ▲ Porta店 -->
   </div>
   <!-- ▲ 店舗一覧 -->
-  <div class="top-shop-deco">
+  <div class="top-shop-deco deco-1">
     <a class="btn-primary" href="#"><span>店舗一覧を見る</span></a>
   </div>
 </section>

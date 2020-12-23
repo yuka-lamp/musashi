@@ -4,17 +4,17 @@ $wp_url = get_template_directory_uri();
 get_header(); the_post(); ?>
 
 <!-- ▼ 導入 -->
-<section class="about_feature">
+<section class="about__feature">
   <div class="top-topic-container d-block d-md-flex">
     <!-- ▼ テキスト -->
-    <div class="about_feature-text col-12 col-md-6">
+    <div class="about__feature-text deco-1 col-12 col-md-6">
       <h2 class="f-28 mincho lh-large mb-5">こだわって40余年。<br>真心も美味しさも特上です。</h2>
       <p class="lh-large mincho">ネタは勿論、米や酢、お茶や醤油、わさび、海苔、それに店内の清潔さ、<br>スタッフの気配り心配りと細部にまでしっかりこだわっています。<br>むさしのすしは、1977年創業以来、独自の美味への道を貫き、オリジナルの食材、調理、調味にこだわりつづけています。その基本にあるのが真心です。</p>
     </div>
     <!-- ▲ テキスト -->
     <!-- ▼ 写真 -->
-    <div class="about_feature-img col-12 col-md-6">
-      <img class="w-100" src="<?php echo $wp_url ?>/dist/images/about_feature.png" alt="寿司のむさし内観写真" srcset="<?php echo $wp_url ?>/dist/images/about_feature.png 1x, <?php echo $wp_url ?>/dist/images/about_feature@2x.png 2x">
+    <div class="about__feature-img col-12 col-md-6">
+      <img class="w-100" src="<?php echo $wp_url ?>/dist/images/about_feature.png" alt="こだわって40余年。真心も美味しさも特上です。" srcset="<?php echo $wp_url ?>/dist/images/about_feature.png 1x, <?php echo $wp_url ?>/dist/images/about_feature@2x.png 2x">
     </div>
     <!-- ▲ 写真 -->
   </div>

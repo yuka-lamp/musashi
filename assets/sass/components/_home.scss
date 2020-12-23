@@ -237,15 +237,10 @@
       }
 
       &::before {
-        content: "";
         width: 124px;
         height: 72px;
-        position: absolute;
         top: 10px;
         left: 0;
-        background: url("../images/deco_2@2x.png");
-        background-size: cover;
-        z-index: -1;
         @include media-breakpoint-down(sm) {
           display: none;
         }
@@ -270,16 +265,11 @@
   &-deco {
     position: relative;
     &::before {
+      display: none;
       @include media-breakpoint-down(sm) {
-        content: "";
-        width: 173px;
-        height: 101px;
-        position: absolute;
+        display: block;
         top: -4rem;
         left: -2rem;
-        background: url("../images/deco_2@2x.png");
-        background-size: cover;
-        z-index: -1;
       }
     }
   }

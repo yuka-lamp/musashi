@@ -12033,6 +12033,11 @@ ul {
 .mincho {
   font-family: 'Sawarabi Mincho', sans-serif; }
 
+.f-24,
+.f-26,
+.f-28 {
+  letter-spacing: 0.14em; }
+
 .f-28 {
   font-size: 1.75rem !important;
   line-height: 3.4rem !important; }
@@ -12054,7 +12059,7 @@ ul {
   line-height: 2.6rem !important; }
   @media (max-width: 991.98px) {
     .f-24 {
-      font-size: 1.125rem !important; } }
+      font-size: 1.375rem !important; } }
 
 .f-18 {
   font-size: 1.125rem !important; }
@@ -12131,6 +12136,26 @@ ul {
     position: absolute;
     top: -1%;
     left: 0; }
+
+/*===================================================
+ 装飾
+====================================================*/
+.deco-1 {
+  position: relative; }
+  .deco-1::before {
+    content: "";
+    width: 194px;
+    height: 113px;
+    position: absolute;
+    top: 30px;
+    left: -100px;
+    background: url("../images/deco_2@2x.png");
+    background-size: cover;
+    z-index: -1; }
+    @media (max-width: 991.98px) {
+      .deco-1::before {
+        top: -40px;
+        left: -90px; } }
 
 /*===================================================
  ヘッダー
@@ -12564,15 +12589,10 @@ main {
       .top-shop-item-text {
         width: 100%; } }
     .top-shop-item-text::before {
-      content: "";
       width: 124px;
       height: 72px;
-      position: absolute;
       top: 10px;
-      left: 0;
-      background: url("../images/deco_2@2x.png");
-      background-size: cover;
-      z-index: -1; }
+      left: 0; }
       @media (max-width: 767.98px) {
         .top-shop-item-text::before {
           display: none; } }
@@ -12589,51 +12609,40 @@ main {
 
 .top-shop-deco {
   position: relative; }
-  @media (max-width: 767.98px) {
-    .top-shop-deco::before {
-      content: "";
-      width: 173px;
-      height: 101px;
-      position: absolute;
-      top: -4rem;
-      left: -2rem;
-      background: url("../images/deco_2@2x.png");
-      background-size: cover;
-      z-index: -1; } }
+  .top-shop-deco::before {
+    display: none; }
+    @media (max-width: 767.98px) {
+      .top-shop-deco::before {
+        display: block;
+        top: -4rem;
+        left: -2rem; } }
 
 /*===================================================
  こだわり
 ====================================================*/
-.about_feature {
+.about__feature {
   width: 82%;
   margin: 0 auto;
   padding: 6rem 0; }
   @media (max-width: 991.98px) {
-    .about_feature {
+    .about__feature {
       width: 100%;
       padding: 4rem 0; } }
-  .about_feature-text {
+  .about__feature-text {
     position: relative;
     padding: 4rem 0; }
     @media (max-width: 991.98px) {
-      .about_feature-text {
+      .about__feature-text {
         padding: 0 15px 2rem; } }
-    .about_feature-text::before {
-      content: "";
-      width: 194px;
-      height: 113px;
-      position: absolute;
+    .about__feature-text::before {
       top: 30px;
-      left: -100px;
-      background: url("../images/deco_2@2x.png");
-      background-size: cover;
-      z-index: -1; }
+      left: -100px; }
       @media (max-width: 991.98px) {
-        .about_feature-text::before {
+        .about__feature-text::before {
           top: -40px;
           left: -90px; } }
   @media (max-width: 991.98px) {
-    .about_feature-img {
+    .about__feature-img {
       padding-right: 0; } }
 
 .about__interior {
@@ -12676,6 +12685,126 @@ main {
   @media (max-width: 1199.98px) {
     .about__point-item-img {
       margin-top: 3rem; } }
+
+/*===================================================
+ お品書き
+====================================================*/
+.menu .deco-1::before {
+  top: -10px;
+  left: 6%; }
+  @media (max-width: 991.98px) {
+    .menu .deco-1::before {
+      top: 1rem;
+      left: 0; } }
+
+.menu__cat {
+  display: flex;
+  justify-content: center;
+  margin: 4rem 0; }
+  @media (max-width: 991.98px) {
+    .menu__cat {
+      justify-content: flex-start;
+      width: 100%;
+      margin: 4rem 0;
+      overflow: hidden;
+      overflow-x: scroll; } }
+  .menu__cat-item {
+    padding: 0 2rem; }
+    @media (max-width: 991.98px) {
+      .menu__cat-item {
+        padding: 0 1rem; } }
+  .menu__cat::-webkit-scrollbar {
+    height: 8px; }
+  .menu__cat::-webkit-scrollbar-track {
+    border-radius: 4px;
+    background: #EAEFF4; }
+  .menu__cat::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background: #DEE2E6; }
+
+.menu__list-ttl {
+  position: relative;
+  width: 100%;
+  margin-bottom: 2rem; }
+  .menu__list-ttl-main {
+    margin-bottom: 1.3rem;
+    padding-left: 60px; }
+    @media (max-width: 991.98px) {
+      .menu__list-ttl-main {
+        padding-left: 50px; } }
+  .menu__list-ttl::before {
+    content: "";
+    display: inline-block;
+    width: 47.16px;
+    height: 29.51px;
+    position: absolute;
+    top: calc(50% - 30.5px);
+    left: 0;
+    background: url("../images/ttl2_icon_2@2x.png");
+    background-size: cover;
+    z-index: -1; }
+    @media (max-width: 991.98px) {
+      .menu__list-ttl::before {
+        width: 37.16px;
+        height: 23.51px;
+        top: calc(50% - 24.5px); } }
+  .menu__list-ttl::after {
+    content: '';
+    width: 100%;
+    height: 9.5px;
+    display: block;
+    margin-top: 1.3rem;
+    background: url("../images/ttl2_line_2@2x.png");
+    background-size: cover; }
+    @media (max-width: 991.98px) {
+      .menu__list-ttl::after {
+        margin-top: 1rem; } }
+
+.menu__list #kin .menu__list-ttl::before {
+  background: url("../images/ttl2_icon_1@2x.png");
+  background-size: cover; }
+
+.menu__list #kin .menu__list-ttl::after {
+  background: url("../images/ttl2_line_1@2x.png"); }
+
+.menu__list-item {
+  width: 18%;
+  margin-bottom: 5px; }
+  @media (max-width: 991.98px) {
+    .menu__list-item {
+      width: 49%; } }
+  .menu__list-item-text {
+    border-top: 1px solid #392615;
+    margin-top: 10px;
+    padding: 1rem 0; }
+  .menu__list-item .cap {
+    font-size: 12px;
+    margin: 3px 0 0; }
+
+/*===================================================
+ 店舗紹介
+====================================================*/
+.shop-item-ttl::before {
+  content: '';
+  width: 100%;
+  height: 9.5px;
+  display: block;
+  background: url("../images/ttl2_line_2@2x.png");
+  background-size: cover; }
+
+.shop-item-about {
+  width: 49%; }
+  @media (max-width: 991.98px) {
+    .shop-item-about {
+      width: 100%; } }
+
+.shop-item-table {
+  width: 49%; }
+  @media (max-width: 991.98px) {
+    .shop-item-table {
+      width: 100%; } }
+  .shop-item-table::before {
+    right: 0; }
 
 /*===================================================
  お知らせ + 取り組み

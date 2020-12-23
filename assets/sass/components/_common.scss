@@ -45,6 +45,12 @@ ul {
   font-family: 'Sawarabi Mincho', sans-serif;
 }
 
+.f-24,
+.f-26,
+.f-28 {
+  letter-spacing: 0.14em;
+}
+
 .f-28 {
   font-size: 1.75rem!important;
   line-height: 3.4rem!important;
@@ -67,7 +73,7 @@ ul {
   font-size: 1.5rem!important;
   line-height: 2.6rem!important;
   @include media-breakpoint-down(md) {
-    font-size: 1.125rem!important;
+    font-size: 1.375rem!important;
   }
 }
 
@@ -156,5 +162,27 @@ ul {
     position: absolute;
     top: -1%;
     left: 0;
+  }
+}
+/*===================================================
+ 装飾
+====================================================*/
+.deco-1 {
+  position: relative;
+
+  &::before {
+    content: "";
+    width: 194px;
+    height: 113px;
+    position: absolute;
+    top: 30px;
+    left: -100px;
+    background: url("../images/deco_2@2x.png");
+    background-size: cover;
+    z-index: -1;
+    @include media-breakpoint-down(md) {
+      top: -40px;
+      left: -90px;
+    }
   }
 }
