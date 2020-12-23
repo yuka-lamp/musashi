@@ -1,0 +1,203 @@
+/*===================================================
+ トップ - トピック
+====================================================*/
+.slick-blog {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+
+  img {
+    width: 100%;
+  }
+}
+// slick 設定
+
+.slick-dots {
+  text-align: left;
+  position: relative;
+  top: 1rem;
+  padding: 0;
+
+  li {
+    display: inline-block;
+    margin: 0 3px;
+    @include media-breakpoint-down(md) {
+      margin: 0 3px;
+    }
+
+    button {
+      position: relative;
+      text-indent: -9999px;
+      border: none;
+      background: rgba(0, 0, 0, 0);
+
+      &:before {
+        content: '●';
+        color: $white;
+        font-size: 10px;
+        text-indent: 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 1;
+      }
+    }
+
+    &.slick-active {
+      button:before {
+        content: '●';
+        color: $primary;
+      }
+    }
+  }
+}
+
+.slick-initialized .slick-slide {
+  padding: 0 1rem;
+}
+
+.slide-arrow {
+  position: absolute;
+  bottom: -1rem;
+  margin-top: -15px;
+}
+
+.prev-arrow {
+  right: 52px;
+  width: 39px;
+  height: 39px;
+  background: url("../images/slick_arrow_l.svg");
+  background-size: cover;
+  border: none;
+  z-index: 1;
+  @include media-breakpoint-down(md) {
+    left: 0;
+  }
+}
+
+.next-arrow {
+  right: 0;
+  width: 39px;
+  height: 39px;
+  background: url("../images/slick_arrow_r.svg");
+  background-size: cover;
+  border: none;
+  z-index: 1;
+  @include media-breakpoint-down(md) {
+    right: 0;
+  }
+}
+/*===================================================
+ トップ - むさしのおもい
+====================================================*/
+.top-concept {
+  &-deco {
+    // 背景画像
+    position: relative;
+
+    &::after {
+      content: "";
+      width: 771px;
+      height: 116px;
+      position: absolute;
+      left: calc(50% - 385.5px);
+      bottom: 20%;
+      background: url("../images/deco_1@2x.png");
+      background-size: cover;
+      z-index: -1;
+      @include media-breakpoint-down(md) {
+        width: 100%;
+        height: 365px;
+        left: 0;
+        bottom: 0;
+        background: url("../images/deco_3@2x.png");
+        background-size: cover;
+      }
+    }
+  }
+
+  &-link {
+    &-inner {
+      width: 32.5%;
+      border-radius: 10px;
+      @include media-breakpoint-down(md) {
+        width: 100%;
+      }
+      // お品書き背景
+      &:nth-child(1) {
+        background: url("../images/top_concept_1.png");
+        background-size: cover;
+        background-position: center;
+        @include media-breakpoint-down(md) {
+          background: url("../images/top_concept_1_sp.png");
+          background-size: cover;
+        }
+      }
+      // こだわり背景
+      &:nth-child(2) {
+        background: url("../images/top_concept_2.png");
+        background-size: cover;
+        background-position: center;
+        @include media-breakpoint-down(md) {
+          background: url("../images/top_concept_2_sp.png");
+          background-size: cover;
+        }
+      }
+      // お持ち帰り・テイクアウト背景
+      &:nth-child(3) {
+        background: url("../images/top_concept_3.png");
+        background-size: cover;
+        background-position: center;
+        @include media-breakpoint-down(md) {
+          background: url("../images/top_concept_3_sp.png");
+          background-size: cover;
+        }
+      }
+    }
+    // 上部 - ページ名
+    &-page {
+      width: 100%;
+      height: 295px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-bottom: 1px solid $white;
+      line-height: 1.8rem;
+      margin: 0;
+      @include media-breakpoint-down(md) {
+        height: 217px;
+      }
+
+      .2lines {
+        align-items: baseline;
+        &-item {
+          &:nth-child(1) {
+            margin-right: 11px;
+          }
+        }
+      }
+    }
+
+    &-more {
+      width: 100%;
+      height: 74px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-bottom: 1px solid $white;
+      @include media-breakpoint-down(md) {
+        height: 66px;
+      }
+
+      &::after {
+        content: '';
+        width: 10px;
+        height: 10px;
+        border-top: 1px solid $white;
+        border-right: 1px solid $white;
+        transform: rotate(45deg);
+        margin-left: 1rem;
+      }
+    }
+  }
+}

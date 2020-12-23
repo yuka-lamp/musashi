@@ -2,9 +2,83 @@
  メインビジュアル - トップページ
 ====================================================*/
 .mv {
+  margin: 0 2rem;
+  @include media-breakpoint-down(md) {
+    margin: 0 15px;
+    padding-top: 1rem;
+  }
+
+  &__wrap {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 584px;
+    background: url("../images/mv_pc.png");
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    @include media-breakpoint-down(sm) {
+      height: 640px;
+      background: url("../images/mv_sp.png");
+      background-size: cover;
+      background-position: center;
+    }
+  }
+
+  &__catch {
+    position: absolute;
+    bottom: 7%;
+    right: 14%;
+    @include media-breakpoint-down(md) {
+      position: absolute;
+      bottom: 7%;
+      right: 0;
+    }
+    @include media-breakpoint-down(sm) {
+      position: absolute;
+      bottom: 30%;
+      left: 0;
+      right: auto;
+    }
+  }
+
+  &__cam {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
 }
 /*===================================================
  メインビジュアル - 下層ページ
 ====================================================*/
 .submv {
+  background: url("../images/submv_contact_pc.png");
+  background-size: cover;
+  @include media-breakpoint-down(md) {
+    background: url("../images/submv_contact_sp.png");
+    background-size: cover;
+  }
+
+  .container {
+    width: 100%;
+    height: 289px;
+    @include media-breakpoint-down(md) {
+      height: 242px;
+    }
+  }
+
+  &__ttl {
+    // writing-mode: vertical-rl;
+    align-items: center;
+    letter-spacing: 7px;
+
+    &-en {
+      display: block;
+      font-size: 1rem;
+      font-family: 'Questrial', 'Noto Sans JP', sans-serif;
+      margin-top: 11px;
+      text-transform: capitalize;
+      letter-spacing: 0.14em;
+    }
+  }
 }

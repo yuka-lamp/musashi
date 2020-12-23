@@ -3,7 +3,10 @@
 ====================================================*/
 main {
   // ヘッダー分の余白
-  margin-top: 103px;
+  margin-top: 112px;
+  @include media-breakpoint-down(md) {
+    margin-top: 63px;
+  }
 }
 
 .header {
@@ -11,7 +14,7 @@ main {
   top: 0;
   left: 0;
   border-top: 8px solid $primary;
-  padding: 1.5rem 2rem 0;
+  padding: 1.5rem 2rem 13px 2rem;
   z-index: 99;
   @include media-breakpoint-down(md) {
     padding: 0;
@@ -105,7 +108,7 @@ main {
       .nav {
         &-item {
           @include media-breakpoint-down(md) {
-            padding: 0!important;
+            padding: 0!important !important;
             margin-bottom: 10px;
           }
         }

@@ -35,7 +35,7 @@ $wp_url = get_template_directory_uri(); ?>
       </div>
       <!-- ▲ 会社情報 -->
       <!-- ▼ SNSリンクボタン -->
-      <div class="footer__sns col-md-3 text-right">
+      <div class="footer__sns col-md-3">
         <a class="d-inline-block mr-3" href="" target="_blank">
           <img src="<?php echo $wp_url ?>/dist/images/icon_fb.png" alt="Facebook" srcset="<?php echo $wp_url ?>/dist/images/icon_fb.png 1x, <?php echo $wp_url ?>/dist/images/icon_fb@2x.png 2x">
         </a>

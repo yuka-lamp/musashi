@@ -63,16 +63,75 @@ $wp_url = get_template_directory_uri(); ?>
 
 <!-- ▼ トップページのメインビジュアル -->
 <section class="mv">
-
+  <div class="mv__wrap">
+    <!-- ▼ キャッチコピー -->
+    <div class="mv__catch col-7 col-md-6 col-lg-4">
+      <h2 class="mincho lh-small">真心も<br class="d-block d-md-none">美味しさも<br><span class="text-primary">特上</span>です</h2>
+      <p class="d-none d-md-block">やるからには「お客様に愛される店」。<br>ネタは勿論、米や酢、お茶や醤油、わさび、海苔、それに店内の清潔さ、スタッフの気配り心配りと細部にまでしっかりこだわっています。</p>
+    </div>
+    <!-- ▲ キャッチコピー -->
+  </div>
+  <!-- ▼ お知らせ -->
+  <div class="mv__news bg-light py-3 m-0">
+    <?php
+      $args = [
+          'posts_per_page' => 1,
+          'post_type' => 'post',
+          'category' => 'news',
+          'orderby' => 'date',
+          'order' => 'ASC',
+      ];
+      $my_posts = get_posts($args);
+      foreach ($my_posts as $post):
+      setup_postdata($post);
+      $id = get_the_ID();
+      $ttl = get_the_title();
+      $permalink = get_the_permalink();
+      $date = get_the_date();
+      ?>
+    <div class="mv__news__inner row w-100 m-0">
+      <div class="col-2 p-0">
+        <p class="mv__news-ttl text-uppercase m-0 p-0">NEWS</p>
+      </div>
+      <a class="col-10 m-0 p-0" href="<?php echo $permalink ?>"><span class="d-block "><?php echo $date ?></span><?php echo $ttl ?></a>
+    </div>
+    <?php endforeach; wp_reset_postdata(); ?>
+  </div>
+  <!-- ▲ お知らせ -->
+  <!-- ▼ キャンペーン画像 -->
+  <a class="mv__cam mincho d-none d-md-block" href="<?php echo $home ?>/athome/">
+    <img style="width: 223px; height: 222px;" src="<?php echo $wp_url ?>/dist/images/fix_takeout.png" alt="おうちdeむさし" srcset="<?php echo $wp_url ?>/dist/images/fix_takeout.png 1x, <?php echo $wp_url ?>/dist/images/fix_takeout@2x.png 2x">
+  </a>
+  <!-- ▲ キャンペーン画像 -->
 </section>
 <!-- ▲ トップページのメインビジュアル -->
 
-<?php elseif (is_archive()) : ?>
+<?php
+else:
+  global $post;
+  $ttl = $post->post_title;
+  $slug = $post->post_name;
+?>
 
 <!-- ▼ 下層ページのメインビジュアル -->
-<section class="submv">
-  <div class="container">
-
+<style media="screen">
+.submv {
+  background: url("<?php echo $wp_url ?>/dist/images/submv_<?php echo $slug ?>_pc.png");
+  background-size: cover;
+}
+ @media(max-width:999.98px){
+   .submv {
+    background: url("<?php echo $wp_url ?>/dist/images/submv_<?php echo $slug ?>_sp.png");
+    background-size: cover;
+  }
+}
+</style>
+<section class="submv <?php echo $slug ?>">
+  <div class="container d-flex align-items-center justify-content-center">
+    <div class="text-center">
+      <h2 class="submv__ttl mincho f-28 text-white"><?php echo $ttl ?></h2>
+      <p class="submv__en text-white"><?php echo $slug ?></p>
+    </div>
   </div>
 </section>
 <!-- ▲ 下層ページのメインビジュアル -->

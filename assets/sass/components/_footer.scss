@@ -23,8 +23,10 @@
   }
 
   &__sns {
+    text-align: right;
     @include media-breakpoint-down(md) {
       padding-bottom: 3rem;
+      text-align: left;
     }
   }
 
