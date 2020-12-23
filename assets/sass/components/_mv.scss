@@ -29,6 +29,7 @@
     position: absolute;
     bottom: 7%;
     right: 14%;
+    color: $dark;
     @include media-breakpoint-down(md) {
       position: absolute;
       bottom: 7%;
@@ -36,9 +37,16 @@
     }
     @include media-breakpoint-down(sm) {
       position: absolute;
-      bottom: 30%;
+      bottom: 32.5%;
       left: 0;
       right: auto;
+    }
+
+    &-h2 {
+      line-height: 1.75em;
+      @include media-breakpoint-down(sm) {
+        line-height: 3.4rem;
+      }
     }
   }
 

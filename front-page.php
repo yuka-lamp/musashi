@@ -64,18 +64,18 @@ get_header(); ?>
     <!-- ▼ 下層ページへのリンク -->
     <div class="top-concept-link d-block d-md-flex mt-5 justify-content-between">
       <a class="top-concept-link-inner" href="<?php echo $home ?>/menu/">
-        <p class="top-concept-link-page text-white mincho f-24">お<br>品<br>書<br>き</p>
+        <p class="top-concept-link-page text-white mincho">お<br>品<br>書<br>き</p>
         <p class="top-concept-link-more text-white mincho m-0 f-16">詳しくみる</p>
       </a>
       <a class="top-concept-link-inner" href="<?php echo $home ?>/about/">
-        <p class="top-concept-link-page text-white mincho f-24">こ<br>だ<br>わ<br>り</p>
+        <p class="top-concept-link-page text-white mincho">こ<br>だ<br>わ<br>り</p>
         <p class="top-concept-link-more text-white mincho m-0 f-16">詳しくみる</p>
       </a>
       <a class="top-concept-link-inner" href="<?php echo $home ?>/menu/">
         <div class="top-concept-link-page">
           <div class="2lines">
-            <p class="2lines-item text-white mincho f-24">宅<br>配</p>
-            <p class="2lines-item text-white mincho f-24">お<br>持<br>ち<br>帰<br>り</p>
+            <p class="2lines-item text-white mincho">宅<br>配</p>
+            <p class="2lines-item text-white mincho">お<br>持<br>ち<br>帰<br>り</p>
           </div>
         </div>
         <p class="top-concept-link-more text-white mincho m-0 f-16">詳しくみる</p>
@@ -85,6 +85,71 @@ get_header(); ?>
   </div>
 </section>
 
-<a class="btn-primary" href="#"><span>店舗一覧を見る</span></a>
+<section class="top-shop my-5 py-5">
+  <h2 class="ttl-2 mb-5">店舗紹介<span class="ttl-2-en en">shop</span></h2>
+  <!-- ▼ 店舗一覧 -->
+  <div class="d-block d-md-flex">
+    <!-- ▼ 三条本店 -->
+    <div class="top-shop-item col-12 col-md-3 m-0 p-0 d-flex d-md-block">
+      <div class="top-shop-item-img">
+        <img class="w-100" src="<?php echo $wp_url ?>/dist/images/top_shop_1.png" alt="三条本店 外観" srcset="<?php echo $wp_url ?>/dist/images/top_shop_1.png 1x, <?php echo $wp_url ?>/dist/images/top_shop_1@2x.png 2x">
+      </div>
+      <div class="top-shop-item-text">
+        <div class="top-shop-item-text-inner">
+          <h3 class="mincho f-18 mb-4 text-dark">三条本店</h3>
+          <p class="m-0">〒604-8005<br>京都市中京区河原町三条上ル恵比須町440</p>
+          <p class="m-0"><img class="mr-2 d-inline" src="<?php echo $wp_url ?>/dist/images/icon_walk.svg" alt="電車のアイコン">京都市営東西線 京都市役所前駅 3番口 徒歩4分</p>
+        </div>
+      </div>
+    </div>
+    <!-- ▲ 三条本店 -->
+    <!-- ▼ 京都駅八条口店 -->
+    <div class="top-shop-item col-12 col-md-3 m-0 p-0 d-flex d-md-block">
+      <div class="top-shop-item-img">
+        <img class="w-100" src="<?php echo $wp_url ?>/dist/images/top_shop_2.png" alt="京都駅八条口店 外観" srcset="<?php echo $wp_url ?>/dist/images/top_shop_2.png 1x, <?php echo $wp_url ?>/dist/images/top_shop_2@2x.png 2x">
+      </div>
+      <div class="top-shop-item-text">
+        <div class="top-shop-item-text-inner">
+          <h3 class="mincho f-18 mb-4 text-dark">京都駅八条口店</h3>
+          <p class="m-0">〒600-8214<br>京都市下京区東塩小路高倉町8-3京都駅八条口構内 アスティロード京都おもてなし小路</p>
+          <p class="m-0"><img class="mr-2 d-inline" src="<?php echo $wp_url ?>/dist/images/icon_car.svg" alt="電車のアイコン">京都駅八条口近く</p>
+        </div>
+      </div>
+    </div>
+    <!-- ▲ 京都駅八条口店 -->
+    <!-- ▼ 上堀川店 -->
+    <div class="top-shop-item col-12 col-md-3 m-0 p-0 d-flex d-md-block">
+      <div class="top-shop-item-img">
+        <img class="w-100" src="<?php echo $wp_url ?>/dist/images/top_shop_3.png" alt="上堀川店 外観" srcset="<?php echo $wp_url ?>/dist/images/top_shop_3.png 1x, <?php echo $wp_url ?>/dist/images/top_shop_3@2x.png 2x">
+      </div>
+      <div class="top-shop-item-text">
+        <div class="top-shop-item-text-inner">
+          <h3 class="mincho f-18 mb-4 text-dark">上堀川店</h3>
+          <p class="m-0">〒603-8115<br>京都府京都市北区紫竹下本町28</p>
+          <p class="m-0"><img class="mr-2 d-inline" src="<?php echo $wp_url ?>/dist/images/icon_car.svg" alt="電車のアイコン">京都市営地下鉄北大路駅から車で5分</p>
+        </div>
+      </div>
+    </div>
+    <!-- ▲ 上堀川店 -->
+    <!-- ▼ Porta店 -->
+    <div class="top-shop-item col-12 col-md-3 m-0 p-0 d-flex d-md-block">
+      <div class="top-shop-item-img">
+        <img class="w-100" src="<?php echo $wp_url ?>/dist/images/top_shop_4.png" alt="Porta店 外観" srcset="<?php echo $wp_url ?>/dist/images/top_shop_4.png 1x, <?php echo $wp_url ?>/dist/images/top_shop_4@2x.png 2x">
+      </div>
+      <div class="top-shop-item-text">
+        <div class="top-shop-item-text-inner">
+          <h3 class="mincho f-18 mb-4 text-dark">Porta店</h3>
+          <p class="m-0">京都市下京区烏丸通塩小路下る東塩小路町902番地<br>京都駅前地下街ポルタ内</p>
+          <p class="m-0"><img class="mr-2 d-inline" src="<?php echo $wp_url ?>/dist/images/icon_train.svg" alt="電車のアイコン">京都市営地下鉄烏丸線「京都駅」直結</p>
+        </div>
+      </div>
+    </div>
+    <!-- ▲ Porta店 -->
+  </div>
+  <!-- ▲ 店舗一覧 -->
+  <div class="top-shop-deco">
+    <a class="btn-primary" href="#"><span>店舗一覧を見る</span></a>
+  </div>
+</section>
 
 <?php get_footer();

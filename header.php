@@ -66,7 +66,7 @@ $wp_url = get_template_directory_uri(); ?>
   <div class="mv__wrap">
     <!-- ▼ キャッチコピー -->
     <div class="mv__catch col-7 col-md-6 col-lg-4">
-      <h2 class="mincho lh-small">真心も<br class="d-block d-md-none">美味しさも<br><span class="text-primary">特上</span>です</h2>
+      <h2 class="mv__catch-h2 mincho">真心も<br class="d-block d-md-none">美味しさも<br><span class="text-primary">特上</span>です</h2>
       <p class="d-none d-md-block">やるからには「お客様に愛される店」。<br>ネタは勿論、米や酢、お茶や醤油、わさび、海苔、それに店内の清潔さ、スタッフの気配り心配りと細部にまでしっかりこだわっています。</p>
     </div>
     <!-- ▲ キャッチコピー -->

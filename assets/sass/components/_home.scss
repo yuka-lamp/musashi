@@ -53,7 +53,7 @@
 }
 
 .slick-initialized .slick-slide {
-  padding: 0 1rem;
+  padding: 0 5px;
 }
 
 .slide-arrow {
@@ -70,9 +70,6 @@
   background-size: cover;
   border: none;
   z-index: 1;
-  @include media-breakpoint-down(md) {
-    left: 0;
-  }
 }
 
 .next-arrow {
@@ -83,9 +80,6 @@
   background-size: cover;
   border: none;
   z-index: 1;
-  @include media-breakpoint-down(md) {
-    right: 0;
-  }
 }
 /*===================================================
  トップ - むさしのおもい
@@ -105,7 +99,7 @@
       background: url("../images/deco_1@2x.png");
       background-size: cover;
       z-index: -1;
-      @include media-breakpoint-down(md) {
+      @include media-breakpoint-down(sm) {
         width: 100%;
         height: 365px;
         left: 0;
@@ -118,9 +112,10 @@
 
   &-link {
     &-inner {
+      display: block;
       width: 32.5%;
       border-radius: 10px;
-      @include media-breakpoint-down(md) {
+      @include media-breakpoint-down(sm) {
         width: 100%;
       }
       // お品書き背景
@@ -128,9 +123,10 @@
         background: url("../images/top_concept_1.png");
         background-size: cover;
         background-position: center;
-        @include media-breakpoint-down(md) {
+        @include media-breakpoint-down(sm) {
           background: url("../images/top_concept_1_sp.png");
           background-size: cover;
+          margin-bottom: 1rem;
         }
       }
       // こだわり背景
@@ -138,9 +134,10 @@
         background: url("../images/top_concept_2.png");
         background-size: cover;
         background-position: center;
-        @include media-breakpoint-down(md) {
+        @include media-breakpoint-down(sm) {
           background: url("../images/top_concept_2_sp.png");
           background-size: cover;
+          margin-bottom: 1rem;
         }
       }
       // お持ち帰り・テイクアウト背景
@@ -148,7 +145,7 @@
         background: url("../images/top_concept_3.png");
         background-size: cover;
         background-position: center;
-        @include media-breakpoint-down(md) {
+        @include media-breakpoint-down(sm) {
           background: url("../images/top_concept_3_sp.png");
           background-size: cover;
         }
@@ -164,12 +161,15 @@
       border-bottom: 1px solid $white;
       line-height: 1.8rem;
       margin: 0;
-      @include media-breakpoint-down(md) {
+      font-size: 1.5rem;
+      @include media-breakpoint-down(sm) {
         height: 217px;
+        font-size: 1.375rem;
       }
 
       .2lines {
         align-items: baseline;
+
         &-item {
           &:nth-child(1) {
             margin-right: 11px;
@@ -185,7 +185,7 @@
       justify-content: center;
       align-items: center;
       border-bottom: 1px solid $white;
-      @include media-breakpoint-down(md) {
+      @include media-breakpoint-down(sm) {
         height: 66px;
       }
 
@@ -197,6 +197,89 @@
         border-right: 1px solid $white;
         transform: rotate(45deg);
         margin-left: 1rem;
+      }
+    }
+  }
+}
+/*===================================================
+ トップ - 店舗紹介
+====================================================*/
+.top-shop {
+  @include media-breakpoint-down(sm) {
+    border-top: 1px solid $success;
+  }
+  &-item {
+    border-right: 1px solid $success;
+    border-bottom: 1px solid $success;
+    @include media-breakpoint-down(sm) {
+      border-right: none;
+    }
+
+    &-img {
+      width: 100%;
+      @include media-breakpoint-down(sm) {
+        width: 60%;
+      }
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+
+    &-text {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      @include media-breakpoint-down(sm) {
+        width: 100%;
+      }
+
+      &::before {
+        content: "";
+        width: 124px;
+        height: 72px;
+        position: absolute;
+        top: 10px;
+        left: 0;
+        background: url("../images/deco_2@2x.png");
+        background-size: cover;
+        z-index: -1;
+        @include media-breakpoint-down(sm) {
+          display: none;
+        }
+      }
+
+      &-inner {
+        width: 80%;
+        margin: 0 auto;
+        padding: 3rem 0;
+        @include media-breakpoint-down(sm) {
+          padding: 1.5rem 0;
+        }
+
+        h3 {
+          @include media-breakpoint-down(sm) {
+            font-size: 1.125rem;
+          }
+        }
+      }
+    }
+  }
+  &-deco {
+    position: relative;
+    &::before {
+      @include media-breakpoint-down(sm) {
+        content: "";
+        width: 173px;
+        height: 101px;
+        position: absolute;
+        top: -4rem;
+        left: -2rem;
+        background: url("../images/deco_2@2x.png");
+        background-size: cover;
+        z-index: -1;
       }
     }
   }

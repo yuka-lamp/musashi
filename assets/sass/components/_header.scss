@@ -108,7 +108,7 @@ main {
       .nav {
         &-item {
           @include media-breakpoint-down(md) {
-            padding: 0!important !important;
+            padding: 0!important;
             margin-bottom: 10px;
           }
         }

@@ -74,6 +74,7 @@ ul {
   text-align: center;
   font-size: 1.5rem!important;
   font-family: 'Sawarabi Mincho', sans-serif;
+  color: $dark;
   @include media-breakpoint-down(md) {
     font-size: 1.125rem!important;
   }
