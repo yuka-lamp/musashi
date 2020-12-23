@@ -12158,6 +12158,18 @@ ul {
         left: -90px; } }
 
 /*===================================================
+ テーブル
+====================================================*/
+.table {
+  border-top: 1px solid #f0e2d8; }
+  .table-lines {
+    display: block;
+    border-bottom: 1px solid #f0e2d8;
+    padding: 20px 10px; }
+    .table-lines .underline {
+      text-decoration: underline; }
+
+/*===================================================
  ヘッダー
 ====================================================*/
 main {
@@ -12826,17 +12838,11 @@ main {
       margin-top: 9px;
       font-size: 12px; }
   .shop__item-table {
-    width: 48%;
-    border-top: 1px solid #f0e2d8; }
+    width: 48%; }
     @media (max-width: 991.98px) {
       .shop__item-table {
         width: 100%;
         margin-top: 2rem; } }
-    .shop__item-table-lines {
-      border-bottom: 1px solid #f0e2d8;
-      padding: 20px 10px; }
-      .shop__item-table-lines .underline {
-        text-decoration: underline; }
     .shop__item-table::before {
       top: -13px;
       left: auto;

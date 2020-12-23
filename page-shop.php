@@ -33,25 +33,25 @@ get_header(); the_post(); ?>
       </div>
       <!-- ▲ 写真 + 概要 -->
       <!-- ▼ テーブル -->
-      <div class="shop__item-table deco-1">
-        <div class="shop__item-table-lines d-block">
+      <div class="shop__item-table table deco-1">
+        <div class="table-lines d-block">
           <p class="shop__item-table-ttl text-primary mb-2">住所</p>
           <p class="mb-2 d-block">〒604-8005<br>京都市中京区河原町三条上ル恵比須町440</p>
           <a href="https://goo.gl/maps/Ayi7XDgpyXt38nKAA" target="_blank" class="link-arrow f-16">googlemapをみる</a>
         </div>
-        <div class="shop__item-table-lines d-block">
+        <div class="table-lines d-block">
           <p class="shop__item-table-ttl text-primary mb-2">電話番号</p>
           <a href="tel:075-222-0634" class="underline f-16">075-222-0634</a>
         </div>
-        <div class="shop__item-table-lines d-block">
+        <div class="table-lines d-block">
           <p class="shop__item-table-ttl text-primary mb-2">座席数</p>
           <p class="w-100 m-0">1F／カウンター36席<br>2F／BOX5席・カウンター8席</p>
         </div>
-        <div class="shop__item-table-lines d-block">
+        <div class="table-lines d-block">
           <p class="shop__item-table-ttl text-primary mb-2">営業時間</p>
           <p class="m-0">11:00～21:45（LO.21:30）<br>※最終入店は21:20</p>
         </div>
-        <div class="shop__item-table-lines d-block">
+        <div class="table-lines d-block">
           <p class="shop__item-table-ttl text-primary mb-2">定休日</p>
           <p class="m-0">1月1日（元旦のみ）</p>
         </div>
@@ -92,25 +92,25 @@ get_header(); the_post(); ?>
       </div>
       <!-- ▲ 写真 + 概要 -->
       <!-- ▼ テーブル -->
-      <div class="shop__item-table deco-1">
-        <div class="shop__item-table-lines d-block">
+      <div class="shop__item-table table deco-1">
+        <div class="table-lines d-block">
           <p class="shop__item-table-ttl text-primary mb-2">住所</p>
           <p class="mb-2 d-block">〒600-8214<br>京都市下京区東塩小路高倉町8-3<br>京都駅八条口構内 アスティロード京都おもてなし小路</p>
           <a href="https://goo.gl/maps/Mwt4L2DNC8rozUoS9" target="_blank" class="link-arrow f-16">googlemapをみる</a>
         </div>
-        <div class="shop__item-table-lines d-block">
+        <div class="table-lines d-block">
           <p class="shop__item-table-ttl text-primary mb-2">電話番号</p>
           <a href="tel:075-662-0634" class="underline f-16">075-662-0634</a>
         </div>
-        <div class="shop__item-table-lines d-block">
+        <div class="table-lines d-block">
           <p class="shop__item-table-ttl text-primary mb-2">座席数</p>
           <p class="w-100 m-0">カウンター34席</p>
         </div>
-        <div class="shop__item-table-lines d-block">
+        <div class="table-lines d-block">
           <p class="shop__item-table-ttl text-primary mb-2">営業時間</p>
           <p class="m-0">10:30～21:45（LO.21:30）<br>※最終入店は21:20<br>※テイクアウトは9:00～21:45</p>
         </div>
-        <div class="shop__item-table-lines d-block">
+        <div class="table-lines d-block">
           <p class="shop__item-table-ttl text-primary mb-2">定休日</p>
           <p class="m-0">年中無休</p>
         </div>
@@ -145,17 +145,17 @@ get_header(); the_post(); ?>
       </div>
       <!-- ▲ 写真 + 概要 -->
       <!-- ▼ テーブル -->
-      <div class="shop__item-table deco-1">
-        <div class="shop__item-table-lines d-block">
+      <div class="shop__item-table table deco-1">
+        <div class="table-lines d-block">
           <p class="shop__item-table-ttl text-primary mb-2">住所</p>
           <p class="mb-2 d-block"> 〒603-8115<br>京都府京都市北区紫竹下本町２８</p>
           <a href="https://goo.gl/maps/KvypJBcCQC9RFUxZ6" target="_blank" class="link-arrow f-16">googlemapをみる</a>
         </div>
-        <div class="shop__item-table-lines d-block">
+        <div class="table-lines d-block">
           <p class="shop__item-table-ttl text-primary mb-2">電話番号</p>
           <a href="tel:080-2424-0760" class="underline f-16">080-2424-0760</a>
         </div>
-        <div class="shop__item-table-lines d-block">
+        <div class="table-lines d-block">
           <p class="shop__item-table-ttl text-primary mb-2">受け取り時間</p>
           <p class="w-100 m-0">11:30～19:00</p>
         </div>
@@ -190,13 +190,13 @@ get_header(); the_post(); ?>
       </div>
       <!-- ▲ 写真 + 概要 -->
       <!-- ▼ テーブル -->
-      <div class="shop__item-table deco-1">
-        <div class="shop__item-table-lines d-block">
+      <div class="shop__item-table table deco-1">
+        <div class="table-lines d-block">
           <p class="shop__item-table-ttl text-primary mb-2">住所</p>
           <p class="mb-2 d-block">京都市下京区烏丸通塩小路下る東塩小路町902番地<br>京都駅前地下街ポルタ内</p>
           <a href="https://goo.gl/maps/8AHBeWvocK7S7WaJ8" target="_blank" class="link-arrow f-16">googlemapをみる</a>
         </div>
-        <div class="shop__item-table-lines d-block">
+        <div class="table-lines d-block">
           <p class="shop__item-table-ttl text-primary mb-2">受け取り時間</p>
           <p class="w-100 m-0">11:00～19:00</p>
         </div>
