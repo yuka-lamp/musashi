@@ -16,5 +16,4 @@ get_header(); the_post(); ?>
   </div>
 </section>
 
-
 <?php get_footer();
