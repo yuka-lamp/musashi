@@ -12067,6 +12067,9 @@ ul {
 .f-16 {
   font-size: 1rem !important; }
 
+.f-14 {
+  font-size: 0.875rem !important; }
+
 /*===================================================
  見出し
 ====================================================*/
@@ -12109,7 +12112,7 @@ ul {
 .btn-primary {
   display: block;
   width: 343px;
-  margin: 3rem auto 0;
+  margin: 3rem auto 0 auto;
   padding: 1.5rem 0;
   text-align: center; }
   .btn-primary span {
@@ -12183,7 +12186,7 @@ main {
   top: 0;
   left: 0;
   border-top: 8px solid #d45b34;
-  padding: 1.4rem 2rem 13px 2rem;
+  padding: 1.4rem 2rem 13px;
   z-index: 99; }
   @media (max-width: 991.98px) {
     .header {
@@ -12243,7 +12246,7 @@ main {
     @media (max-width: 991.98px) {
       .header .navbar-nav .nav-item {
         padding: 0 !important;
-        margin-bottom: 10px; } }
+        margin-bottom: 1.25rem; } }
     .header .navbar-nav .nav-link {
       text-align: center;
       font-size: 1rem;
@@ -12804,7 +12807,10 @@ main {
  店舗紹介
 ====================================================*/
 .shop__item {
-  margin-top: 4rem; }
+  margin-top: 6rem; }
+  @media (max-width: 991.98px) {
+    .shop__item {
+      margin-top: 4rem; } }
   .shop__item-ttl {
     margin-bottom: 2.5rem; }
     .shop__item-ttl::before {
@@ -12847,6 +12853,128 @@ main {
       top: -13px;
       left: auto;
       right: 0; }
+
+/*===================================================
+ お持ち帰り・宅配
+====================================================*/
+.athome-ttl3 {
+  padding-bottom: 1.5rem;
+  margin-bottom: 2.25rem;
+  border-bottom: 1px solid #f0e2d8; }
+
+.athome__order {
+  margin-top: 6rem; }
+  @media (max-width: 991.98px) {
+    .athome__order {
+      margin-top: 4rem; } }
+  .athome__order-container {
+    width: 80%;
+    margin: 0 auto; }
+  @media (max-width: 991.98px) {
+    .athome__order-text {
+      padding: 0; } }
+  .athome__order-text-logo {
+    display: block;
+    margin: 0 auto; }
+  .athome__order-text-text {
+    padding: 2.5rem 0; }
+    @media (max-width: 991.98px) {
+      .athome__order-text-text {
+        padding: 2rem 0; } }
+  @media (max-width: 991.98px) {
+    .athome__order-img {
+      padding: 0;
+      margin-top: 3rem; } }
+  .athome__order-img img {
+    width: 100%; }
+
+.athome__feature-bg {
+  background: #f9f5e9; }
+  @media (max-width: 991.98px) {
+    .athome__feature-bg {
+      background: #fff; } }
+
+.athome__feature-item {
+  padding: 3rem 0; }
+  @media (max-width: 991.98px) {
+    .athome__feature-item {
+      margin-bottom: 2rem;
+      padding: 0 15px; } }
+  .athome__feature-item-img {
+    border-radius: 10px;
+    background: #f9f5e9; }
+
+.athome__flow-item {
+  position: relative;
+  padding: 3rem 0; }
+  @media (max-width: 991.98px) {
+    .athome__flow-item {
+      padding: 1.5rem 0; } }
+  .athome__flow-item:first-child::after {
+    display: none; }
+  .athome__flow-item::after {
+    content: '';
+    width: 114px;
+    height: 3px;
+    background-image: linear-gradient(-90deg, #d45b34 50%, transparent 50%);
+    background-size: 6px 6px;
+    position: absolute;
+    top: calc(50% - 1.5px);
+    left: -57px; }
+  .athome__flow-item h3::before {
+    content: '';
+    width: 80px;
+    height: 52px;
+    background: url("../images/home_flow_deco.png");
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    bottom: 10%; }
+  .athome__flow-item:nth-child(1) {
+    background: #f9f5e9; }
+  .athome__flow-item:nth-child(2) {
+    background: #F5E7BE; }
+  .athome__flow-item:nth-child(3) {
+    background: #F5DCAD; }
+  .athome__flow-item:nth-child(4) {
+    background: #F5CF9A; }
+
+.athome__support-ttl4 {
+  position: relative;
+  padding-left: 1.75rem;
+  margin: 1.75rem 0 1rem; }
+  .athome__support-ttl4::before {
+    content: "";
+    display: inline-block;
+    width: 22px;
+    height: 14px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url("../images/ttl3_icon@2x.png");
+    background-size: cover;
+    z-index: -1; }
+
+.athome__support-item {
+  padding: 1rem 0.5rem; }
+  .athome__support-item.main {
+    border-bottom: 1px solid #fff; }
+  .athome__support-item.sub {
+    border-bottom: 1px solid #f0e2d8; }
+
+.athome__support-lines:first-child.sub {
+  border-top: 1px solid #f0e2d8; }
+
+.athome__payment-card {
+  width: 75%;
+  margin: 1.5rem auto;
+  border: 10px solid #f9f5e9;
+  border-radius: 10px; }
+  @media (max-width: 991.98px) {
+    .athome__payment-card {
+      width: 100%; } }
+  .athome__payment-card-img {
+    margin: 0 10px; }
 
 /*===================================================
  お知らせ + 取り組み

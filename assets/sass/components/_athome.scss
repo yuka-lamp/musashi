@@ -1,0 +1,189 @@
+/*===================================================
+ お持ち帰り・宅配
+====================================================*/
+.athome {
+  &-ttl3 {
+    padding-bottom: 1.5rem;
+    margin-bottom: 2.25rem;
+    border-bottom: 1px solid $success;
+  }
+
+  &__order {
+    margin-top: 6rem;
+    @include media-breakpoint-down(md) {
+      margin-top: 4rem;
+    }
+
+    &-container {
+      width: 80%;
+      margin: 0 auto;
+    }
+
+    &-text {
+      @include media-breakpoint-down(md) {
+        padding: 0;
+      }
+
+      &-logo {
+        display: block;
+        margin: 0 auto;
+      }
+
+      &-text {
+        padding: 2.5rem 0;
+        @include media-breakpoint-down(md) {
+          padding: 2rem 0;
+        }
+      }
+    }
+
+    &-img {
+      @include media-breakpoint-down(md) {
+        padding: 0;
+        margin-top: 3rem;
+      }
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+
+  &__feature {
+    &-bg {
+      background: $light;
+      @include media-breakpoint-down(md) {
+        background: $white;
+      }
+    }
+
+    &-item {
+      padding: 3rem 0;
+      @include media-breakpoint-down(md) {
+        margin-bottom: 2rem;
+        padding: 0 15px;
+      }
+
+      &-img {
+        border-radius: 10px;
+        background: $light;
+      }
+    }
+  }
+
+  &__flow {
+    &-item {
+      position: relative;
+      padding: 3rem 0;
+      @include media-breakpoint-down(md) {
+        padding: 1.5rem 0;
+      }
+
+      &:first-child {
+        &::after {
+          display: none;
+        }
+      }
+
+      &::after {
+        content: '';
+        width: 114px;
+        height: 3px;
+        background-image: linear-gradient(-90deg, $primary 50%, transparent 50%);
+        background-size: 6px 6px;
+        position: absolute;
+        top: calc(50% - 1.5px);
+        left: -57px;
+      }
+
+      h3 {
+        &::before {
+          content: '';
+          width: 80px;
+          height: 52px;
+          background: url("../images/home_flow_deco.png");
+          background-size: cover;
+          position: absolute;
+          left: 0;
+          bottom: 10%;
+        }
+      }
+
+      &:nth-child(1) {
+        background: $light;
+      }
+
+      &:nth-child(2) {
+        background: #F5E7BE;
+      }
+
+      &:nth-child(3) {
+        background: #F5DCAD;
+      }
+
+      &:nth-child(4) {
+        background: #F5CF9A;
+      }
+    }
+  }
+
+  &__support {
+
+    &-ttl4 {
+      position: relative;
+      padding-left: 1.75rem;
+      margin: 1.75rem 0 1rem;
+
+      &::before {
+        content: "";
+        display: inline-block;
+        width: 22px;
+        height: 14px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: url("../images/ttl3_icon@2x.png");
+        background-size: cover;
+        z-index: -1;
+      }
+    }
+
+    &-item {
+      padding: 1rem 0.5rem;
+
+      &.main {
+        border-bottom: 1px solid $white;
+      }
+
+      &.sub {
+        border-bottom: 1px solid $success;
+      }
+    }
+
+    &-lines {
+      &:first-child {
+        &.sub {
+          border-top: 1px solid $success;
+        }
+      }
+    }
+  }
+
+  &__payment {
+    &-card {
+      width: 75%;
+      margin: 1.5rem auto;
+      border: 10px solid $light;
+      border-radius: 10px;
+      @include media-breakpoint-down(md) {
+        width: 100%;
+      }
+
+      &-img {
+        margin: 0 10px;
+      }
+    }
+  }
+
+  &__attention {}
+}

@@ -12,7 +12,7 @@ get_header(); ?>
       $args = [
           'posts_per_page' => 4,
           'post_type' => 'post',
-          'taxonomy' => 'news',
+          'category' => 'news',
           'orderby' => 'date',
           'order' => 'ASC',
       ];

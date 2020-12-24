@@ -4,7 +4,7 @@ $wp_url = get_template_directory_uri();
 get_header(); the_post(); ?>
 
 <!-- ▼ 三条本店 -->
-<section class="shop__item mt-5">
+<section class="shop__item">
   <div class="container-small">
     <h3 class="shop__item-ttl d-block text-center f-24 mincho">三条本店</h3>
     <div class="d-block d-lg-flex justify-content-between">

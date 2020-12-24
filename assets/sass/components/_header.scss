@@ -14,7 +14,7 @@ main {
   top: 0;
   left: 0;
   border-top: 8px solid $primary;
-  padding: 1.4rem 2rem 13px 2rem;
+  padding: 1.4rem 2rem 13px;
   z-index: 99;
   @include media-breakpoint-down(md) {
     padding: 0;
@@ -25,22 +25,9 @@ main {
     position: relative;
     margin: 0;
     padding: 0;
-    // &-list {
-    //   // メニュー開いたときの背景
-    //   &::before {
-    //     content: "";
-    //     display: block;
-    //     width: 100%;
-    //     height: 100%;
-    //     background: #d45b34;
-    //     opacity: 0;
-    //     position: fixed;
-    //     top: 0;
-    //     left: 0;
-    //     transition: transform 0.2s ease-in-out;
-    //     z-index: -1;
-    //   }
-    // }
+
+    &-list {}
+
     &-brand {
       &-img {
         width: 195.37px;
@@ -102,6 +89,30 @@ main {
       @include media-breakpoint-down(md) {
         padding: 3rem 0;
       }
+      // // メニュー開いたときの背景
+      // &::before {
+      //   content: "";
+      //   display: block;
+      //   width: 100%;
+      //   height: 100%;
+      //   background: #d45b34;
+      //   opacity: 0;
+      //   position: fixed;
+      //   top: 0;
+      //   left: 0;
+      //   transition: transform 0.2s ease-in-out;
+      //   z-index: -1;
+      // }
+      //
+      // .collapse:not(.show) {
+      //   display: block;
+      // }
+      //
+      // &.show {
+      //   &::before {
+      //     opacity: 0.4;
+      //   }
+      // }
     }
     // ナビ
     &-nav {
@@ -109,7 +120,7 @@ main {
         &-item {
           @include media-breakpoint-down(md) {
             padding: 0!important;
-            margin-bottom: 10px;
+            margin-bottom: 1.25rem;
           }
         }
 

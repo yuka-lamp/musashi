@@ -16,7 +16,7 @@ $wp_url = get_template_directory_uri(); ?>
       <div class="w-100">
         <div class="d-block d-lg-flex align-items-center">
           <!-- ▼ メイン -->
-          <div>
+          <div class="bg-white">
             <h1 class="d-inline-block navbar-brand mr-4 p-0">
               <a class="d-inline-block " href="<?php echo $home ?>">
               <img class="navbar-brand-img" src="<?php echo $wp_url ?>/dist/images/logo.png" alt="<?php get_the_title() ?>" srcset="<?php echo $wp_url ?>/dist/images/logo.png 1x, <?php echo $wp_url ?>/dist/images/logo@2x.png 2x">
