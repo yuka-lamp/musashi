@@ -1,0 +1,84 @@
+/*===================================================
+ お問い合わせ
+====================================================*/
+.contact {
+  &__form {
+    width: 70%;
+    margin: 0 auto;
+
+    table {
+      width: 100%;
+
+      tr {
+        width: 100%;
+
+        td,
+        th {
+          padding: 0 0 20px;
+          border: none;
+          background: none;
+          color: #222;
+          vertical-align: top;
+          position: relative;
+          font-weight: normal;
+        }
+
+        th {
+          width: 30%;
+          padding-right: 20px;
+          padding-top: 8px;
+          font-weight: normal;
+          @include media-breakpoint-down(md) {
+            width: 100%;
+          }
+
+          .form-must {
+            &::after {
+              content: '※';
+              display: inline;
+              color: $primary;
+              margin-left: 1rem;
+            }
+          }
+        }
+
+        td {
+          width: 70%;
+          padding: 0 0 20px;
+          border: none;
+          background: none;
+          color: #222;
+          vertical-align: top;
+          position: relative;
+          font-weight: normal;
+          @include media-breakpoint-down(md) {
+            width: 100%;
+          }
+
+          input {
+            height: calc(1.5em + 0.75rem + 10px);
+          }
+
+          input,
+          textarea {
+            background: $light;
+            border: none;
+            border-radius: 5px;
+            padding: 12px 20px;
+            width: 100%;
+            box-sizing: border-box;
+            position: relative;
+            display: block;
+          }
+
+          .form-control:focus {
+            background-color: $light;
+            border: none;
+            outline: 0;
+            box-shadow: 0 0 0 0;
+          }
+        }
+      }
+    }
+  }
+}

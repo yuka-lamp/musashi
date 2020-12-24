@@ -12984,6 +12984,68 @@ main {
     margin: 0 10px; }
 
 /*===================================================
+ お問い合わせ
+====================================================*/
+.contact__form {
+  width: 70%;
+  margin: 0 auto; }
+  .contact__form table {
+    width: 100%; }
+    .contact__form table tr {
+      width: 100%; }
+      .contact__form table tr td,
+      .contact__form table tr th {
+        padding: 0 0 20px;
+        border: none;
+        background: none;
+        color: #222;
+        vertical-align: top;
+        position: relative;
+        font-weight: normal; }
+      .contact__form table tr th {
+        width: 30%;
+        padding-right: 20px;
+        padding-top: 8px;
+        font-weight: normal; }
+        @media (max-width: 991.98px) {
+          .contact__form table tr th {
+            width: 100%; } }
+        .contact__form table tr th .form-must::after {
+          content: '※';
+          display: inline;
+          color: #d45b34;
+          margin-left: 1rem; }
+      .contact__form table tr td {
+        width: 70%;
+        padding: 0 0 20px;
+        border: none;
+        background: none;
+        color: #222;
+        vertical-align: top;
+        position: relative;
+        font-weight: normal; }
+        @media (max-width: 991.98px) {
+          .contact__form table tr td {
+            width: 100%; } }
+        .contact__form table tr td input {
+          height: calc(1.5em + 0.75rem + 10px); }
+        .contact__form table tr td input,
+        .contact__form table tr td textarea {
+          background: #f9f5e9;
+          border: none;
+          border-radius: 5px;
+          padding: 12px 20px;
+          width: 100%;
+          box-sizing: border-box;
+          position: relative;
+          display: block; }
+        .contact__form table tr td .form-control:focus {
+          background-color: #f9f5e9;
+          border: none;
+          outline: 0;
+          box-shadow: 0 0 0 0; }
+
+/*===================================================
  お知らせ
 ====================================================*/
 .news-img__item__img {
