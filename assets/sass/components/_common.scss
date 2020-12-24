@@ -133,7 +133,7 @@ ul {
 .btn-primary {
   display: block;
   width: 343px;
-  margin: 3rem auto 0 auto;
+  margin: 3rem auto 0;
   padding: 1.5rem 0;
   text-align: center;
 
@@ -205,5 +205,15 @@ ul {
     .underline {
       text-decoration: underline;
     }
+  }
+}
+/*===================================================
+ 沿革
+====================================================*/
+.history {
+  width: 60%;
+  margin: 0 auto;
+  @include media-breakpoint-down(md) {
+    width: 100%;
   }
 }

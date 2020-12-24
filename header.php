@@ -106,7 +106,7 @@ $wp_url = get_template_directory_uri(); ?>
 </section>
 <!-- ▲ トップページのメインビジュアル -->
 
-<?php elseif (is_single()): ?>
+<?php elseif (is_single() || is_page('3')): ?>
 
 <?php
 else:
