@@ -8,41 +8,34 @@ get_header(); ?>
     <h2 class="ttl-2 mb-5">トピックス<span class="ttl-2-en en">topicks</span></h2>
     <!-- ▼ 記事の取得 -->
     <div class="slick-news news-img__wrap">
-      <?php
-      $args = [
-          'posts_per_page' => 4,
-          'post_type' => 'post',
-          'category' => 'news',
-          'orderby' => 'date',
-          'order' => 'ASC',
-      ];
-      $my_posts = get_posts($args);
-      foreach ($my_posts as $post):
-      setup_postdata($post);
+      <?php query_posts( array(
+        'post_type' => 'post', //カスタム投稿名を指定
+        'cat' => '7',     //タクソノミー名を指定
+        'posts_per_page' => -1      ///表示件数（-1で全ての記事を表示）
+      ));
       $id = get_the_ID();
       $thumbnail = get_the_post_thumbnail_url($id, 'large');
-      $ttl = get_the_title();
-      $permalink = get_the_permalink();
       ?>
+      <?php if(have_posts()): ?>
+      <?php while(have_posts()):the_post(); ?>
       <!-- ▼ ループするコンテンツ -->
       <div class="news-img__item">
         <div class="news-img__item__img">
-          <a class="d-block" hraf="<?php echo $permalink ?>">
-            <?php if ( has_post_thumbnail()): ?>
-              <!-- サムネイルがあったら -->
-              <img class="w-100" src="<?php echo $thumbnail; ?>" alt="<?php echo $ttl ?>">
-              <?php else: ?>
-                <!-- サムネイルがなかったら -->
+            <?php if ( has_post_thumbnail()): //サムネイルがあったら ?>
+              <img class="w-100" src="<?php echo the_post_thumbnail_url($id, 'large'); ?>" alt="<?php echo $ttl ?>">
+              <?php else: // サムネイルがなかったら ?>
               <img class="w-100" src="<?php echo $wp_url ?>/dist/images/news_imgnone.png" alt="noimage" srcset="<?php echo $wp_url ?>/dist/images/news_imgnone.png 1x, <?php echo $wp_url ?>/dist/images/news_imgnone@2x.png 2x">
             <?php endif; ?>
-          </a>
         </div>
         <div class="news-img__item__txt">
-          <a class="d-block text-weight-bold mt-4 mb-3" hraf="<?php echo $permalink ?>"><?php echo $ttl ?></a>
+          <p class="d-block text-weight-bold mt-4 mb-3"><?php the_title(); ?></p>
         </div>
       </div>
       <!-- ▲ ループするコンテンツ -->
-      <?php endforeach; wp_reset_postdata(); ?>
+    <?php endwhile; else: ?>
+      <p class="mincho text-center d-block py-5 w-100">まだ記事が投稿されていません</p>
+    <?php endif; ?>
+    <?php wp_reset_query(); ?>
     </div>
     <!-- ▲ 記事の取得 -->
   </div>
@@ -73,8 +66,8 @@ get_header(); ?>
       </a>
       <a class="top-concept-link-inner" href="<?php echo $home ?>/menu/">
         <div class="top-concept-link-page">
-          <div class="2lines">
-            <p class="2lines-item text-white mincho">宅<br>配</p>
+          <div class="2lines d-flex">
+            <p class="2lines-item text-white mincho mr-2">宅<br>配</p>
             <p class="2lines-item text-white mincho">お<br>持<br>ち<br>帰<br>り</p>
           </div>
         </div>
@@ -120,6 +113,7 @@ get_header(); ?>
     <!-- ▼ 上堀川店 -->
     <div class="top-shop-item col-12 col-md-3 m-0 p-0 d-flex d-md-block">
       <div class="top-shop-item-img">
+        <p class="tag bg-white mincho">ネット予約テイクアウト専用店舗</p>
         <img class="w-100" src="<?php echo $wp_url ?>/dist/images/top_shop_3.png" alt="上堀川店 外観" srcset="<?php echo $wp_url ?>/dist/images/top_shop_3.png 1x, <?php echo $wp_url ?>/dist/images/top_shop_3@2x.png 2x">
       </div>
       <div class="top-shop-item-text deco-1">
@@ -134,6 +128,7 @@ get_header(); ?>
     <!-- ▼ Porta店 -->
     <div class="top-shop-item col-12 col-md-3 m-0 p-0 d-flex d-md-block">
       <div class="top-shop-item-img">
+        <p class="tag bg-white mincho">テイクアウト専用店舗</p>
         <img class="w-100" src="<?php echo $wp_url ?>/dist/images/top_shop_4.png" alt="Porta店 外観" srcset="<?php echo $wp_url ?>/dist/images/top_shop_4.png 1x, <?php echo $wp_url ?>/dist/images/top_shop_4@2x.png 2x">
       </div>
       <div class="top-shop-item-text deco-1">
@@ -148,7 +143,7 @@ get_header(); ?>
   </div>
   <!-- ▲ 店舗一覧 -->
   <div class="top-shop-deco deco-1">
-    <a class="btn-primary" href="#"><span>店舗一覧を見る</span></a>
+    <a class="btn-primary" href="<?php echo $home ?>/shop/"><span>店舗一覧を見る</span></a>
   </div>
 </section>
 

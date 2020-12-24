@@ -2,7 +2,8 @@
  メインビジュアル - トップページ
 ====================================================*/
 .mv {
-  margin: 0 2rem;
+  margin: 0 2rem 3rem 2rem;
+
   @include media-breakpoint-down(md) {
     margin: 0 15px;
     padding-top: 1rem;
@@ -62,9 +63,11 @@
 .submv {
   background: url("../images/submv_contact_pc.png");
   background-size: cover;
+  margin-bottom: 6rem;
   @include media-breakpoint-down(md) {
     background: url("../images/submv_contact_sp.png");
     background-size: cover;
+    margin-bottom: 4rem;
   }
 
   .container {

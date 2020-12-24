@@ -3,11 +3,6 @@
 ====================================================*/
 .shop {
   &__item {
-    margin-top: 6rem;
-    @include media-breakpoint-down(md) {
-      margin-top: 4rem;
-    }
-
     &-ttl {
       margin-bottom: 2.5rem;
 

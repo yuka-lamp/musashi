@@ -72,7 +72,7 @@ $wp_url = get_template_directory_uri(); ?>
     <!-- ▲ キャッチコピー -->
   </div>
   <!-- ▼ お知らせ -->
-  <div class="mv__news bg-light py-3 m-0">
+  <!-- <div class="mv__news bg-light py-3 m-0">
     <?php
       $args = [
           'posts_per_page' => 1,
@@ -96,7 +96,7 @@ $wp_url = get_template_directory_uri(); ?>
       <a class="col-10 m-0 p-0" href="<?php echo $permalink ?>"><span class="d-block "><?php echo $date ?></span><?php echo $ttl ?></a>
     </div>
     <?php endforeach; wp_reset_postdata(); ?>
-  </div>
+  </div> -->
   <!-- ▲ お知らせ -->
   <!-- ▼ キャンペーン画像 -->
   <a class="mv__cam mincho d-none d-md-block" href="<?php echo $home ?>/athome/">
@@ -105,6 +105,8 @@ $wp_url = get_template_directory_uri(); ?>
   <!-- ▲ キャンペーン画像 -->
 </section>
 <!-- ▲ トップページのメインビジュアル -->
+
+<?php elseif (is_single()): ?>
 
 <?php
 else:

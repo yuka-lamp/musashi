@@ -94,19 +94,6 @@
         }
       }
     }
-    // 金皿寿司のみカラー変更
-    #kin {
-      .menu__list-ttl {
-        &::before {
-          background: url("../images/ttl2_icon_1@2x.png");
-          background-size: cover;
-        }
-
-        &::after {
-          background: url("../images/ttl2_line_1@2x.png");
-        }
-      }
-    }
     // 商品ごとの表示
     &-item {
       position: relative;
@@ -133,6 +120,20 @@
       .cap {
         font-size: 12px;
         margin: 3px 0 0;
+      }
+    }
+  }
+  // 金皿寿司のみカラー変更
+  #kin {
+    .menu__list-ttl {
+      &::before {
+        background: url("../images/ttl2_icon_1@2x.png");
+        background-size: cover;
+      }
+
+      &::after {
+        background: url("../images/ttl2_line_1@2x.png");
+        background-size: cover;
       }
     }
   }
