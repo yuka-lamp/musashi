@@ -60,7 +60,7 @@ get_header(); the_post(); ?>
     <div class="about__point-item-text col-12 col-lg-6 d-flex jestily-content-center align-items-center">
       <div class="about__point-item-text-inner">
         <h3 class="f-26 mincho my-5">むさしこだわりの<br>新鮮で安心・安全なネタ</h3>
-        <p class="mincho lh-large">アジは京都の“漁師”がその日に揚げた魚を、寿しのむさしがその日に提供しています。必ず週に一度、舞鶴の漁港にて「直購い」をしております。特別なむさしの味をご堪能ください。</p>
+        <p class="mincho lh-large">一部のネタ（アジ・サバ等）は舞鶴の漁港にて「直購い」を行っており、京都の“漁師”がその日に揚げた魚を、寿しのむさしがその日に提供しています。特別なむさしの味をご堪能ください。</p>
       </div>
     </div>
     <div class="about__point-item-img col-12 col-lg-6 m-0 p-0">
