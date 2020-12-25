@@ -181,6 +181,9 @@
 
       &-img {
         margin: 0 10px;
+        @include media-breakpoint-down(md) {
+          margin: 0 10px 10px 10px;
+        }
       }
     }
   }

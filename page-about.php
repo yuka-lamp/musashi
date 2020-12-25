@@ -34,7 +34,7 @@ get_header(); the_post(); ?>
     <div class="about__point-item-text col-12 col-lg-6 d-flex jestily-content-center align-items-center">
       <div class="about__point-item-text-inner">
         <h3 class="f-26 mincho my-5">やっとたどり着いた、<br>寿司米のベスト</h3>
-        <p class="mincho lh-large">播州・備前産の、コシヒカリと朝日米、あけぼのの三銘柄の各持味を生かしたオリジナルブレンド。栽培から貯蔵精米まで徹底管理して、ふっくらと炊きあげました。<br>播州・備前産の、コシヒカリと朝日米、あけぼのの三銘柄の各持味を生かしたオリジナルブレンド。栽培から貯蔵精米まで徹底管理して、ふっくらと炊きあげました。</p>
+        <p class="mincho lh-large">播州・備前産の、コシヒカリと朝日米、あけぼのの三銘柄の各持味を生かしたオリジナルブレンド。栽培から貯蔵精米まで徹底管理して、ふっくらと炊きあげました。</p>
       </div>
     </div>
     <div class="about__point-item-img col-12 col-lg-6 m-0 p-0">
@@ -47,7 +47,7 @@ get_header(); the_post(); ?>
     <div class="about__point-item-text col-12 col-lg-6 d-flex jestily-content-center align-items-center">
       <div class="about__point-item-text-inner">
         <h3 class="f-26 mincho my-5">昆布だしが生きている、<br>絶妙の合わせ酢</h3>
-        <p class="mincho lh-large">すし飯の味をひきたてるすっきりとした生酢に天然昆布の旨味と風味づけをたっぷりと。合成甘味料を使わず砂糖だけで甘味を出した後味のさっぱりした味付けです。すし飯の味をひきたてるすっきりとした生酢に天然昆布の旨味と風味づけをたっぷりと。合成甘味料を使わず砂糖だけで甘味を出した後味のさっぱりした味付けです。</p>
+        <p class="mincho lh-large">すし飯の味をひきたてるすっきりとした生酢に天然昆布の旨味と風味づけをたっぷりと。合成甘味料を使わず砂糖だけで甘味を出した後味のさっぱりした味付けです。</p>
       </div>
     </div>
     <div class="about__point-item-img col-12 col-lg-6 m-0 p-0">
@@ -59,8 +59,8 @@ get_header(); the_post(); ?>
   <div class="about__point-item d-block d-lg-flex align-items-center">
     <div class="about__point-item-text col-12 col-lg-6 d-flex jestily-content-center align-items-center">
       <div class="about__point-item-text-inner">
-        <h3 class="f-26 mincho my-5">やっとたどり着いた、<br>寿司米のベスト</h3>
-        <p class="mincho lh-large">播州・備前産の、コシヒカリと朝日米、あけぼのの三銘柄の各持味を生かしたオリジナルブレンド。栽培から貯蔵精米まで徹底管理して、ふっくらと炊きあげました。<br>播州・備前産の、コシヒカリと朝日米、あけぼのの三銘柄の各持味を生かしたオリジナルブレンド。栽培から貯蔵精米まで徹底管理して、ふっくらと炊きあげました。</p>
+        <h3 class="f-26 mincho my-5">むさしこだわりの<br>新鮮で安心・安全なネタ</h3>
+        <p class="mincho lh-large">アジは京都の“漁師”がその日に揚げた魚を、寿しのむさしがその日に提供しています。必ず週に一度、舞鶴の漁港にて「直購い」をしております。特別なむさしの味をご堪能ください。</p>
       </div>
     </div>
     <div class="about__point-item-img col-12 col-lg-6 m-0 p-0">
@@ -73,7 +73,7 @@ get_header(); the_post(); ?>
     <div class="about__point-item-text col-12 col-lg-6 d-flex jestily-content-center align-items-center">
       <div class="about__point-item-text-inner">
         <h3 class="f-26 mincho my-5">自然がかもした、<br>専用のブレンド醤油</h3>
-        <p class="mincho lh-large">名醸地、播州・龍野で長期熟成された「たまり」と本醸造「こいくち」醤油（原料は、健やかな大豆と小麦）をブレンド。秘伝の調味配合で仕立てたオリジナルです。<br>名醸地、播州・龍野で長期熟成された「たまり」と本醸造「こいくち」醤油（原料は、健やかな大豆と小麦）をブレンド。秘伝の調味配合で仕立てたオリジナルです。</p>
+        <p class="mincho lh-large">名醸地、播州・龍野で長期熟成された「たまり」と本醸造「こいくち」醤油（原料は、健やかな大豆と小麦）をブレンド。秘伝の調味配合で仕立てたオリジナルです。</p>
       </div>
     </div>
     <div class="about__point-item-img col-12 col-lg-6 m-0 p-0">
@@ -86,7 +86,7 @@ get_header(); the_post(); ?>
     <div class="about__point-item-text col-12 col-lg-6 d-flex jestily-content-center align-items-center">
       <div class="about__point-item-text-inner">
         <h3 class="f-26 mincho my-5">ちまたで噂の、<br>銘茶の秘密</h3>
-        <p class="mincho lh-large">静岡茶の香り、宇治茶の上品さ、嬉野茶のまったりした甘味を利き茶を重ねて秘伝の調合でブレンド。さっぱりした風味で、ついつい食がすすみます。話題沸騰の味。<br>静岡茶の香り、宇治茶の上品さ、嬉野茶のまったりした甘味を利き茶を重ねて秘伝の調合でブレンド。さっぱりした風味で、ついつい食がすすみます。話題沸騰の味。</p>
+        <p class="mincho lh-large">静岡茶の香り、宇治茶の上品さ、嬉野茶のまったりした甘味を利き茶を重ねて秘伝の調合でブレンド。さっぱりした風味で、ついつい食がすすみます。話題沸騰の味。</p>
       </div>
     </div>
     <div class="about__point-item-img col-12 col-lg-6 m-0 p-0">

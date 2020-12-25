@@ -18,8 +18,8 @@ get_header(); the_post(); ?>
         <p class="mincho f-18 mt-2 mb-0">特上寿司</p>
       </a>
       <a href="#nigiri" class="menu__cat-item d-block text-center">
-        <img src="<?php echo $wp_url ?>/dist/images/menu_cat_nigiri.png" alt="にぎり" srcset="<?php echo $wp_url ?>/dist/images/menu_cat_nigiri.png 1x, <?php echo $wp_url ?>/dist/images/menu_cat_nigiri@2x.png 2x">
-        <p class="mincho f-18 mt-2 mb-0">にぎり</p>
+        <img src="<?php echo $wp_url ?>/dist/images/menu_cat_nigiri.png" alt="定番寿司" srcset="<?php echo $wp_url ?>/dist/images/menu_cat_nigiri.png 1x, <?php echo $wp_url ?>/dist/images/menu_cat_nigiri@2x.png 2x">
+        <p class="mincho f-18 mt-2 mb-0">定番寿司</p>
       </a>
       <a href="#side" class="menu__cat-item d-block text-center">
         <img src="<?php echo $wp_url ?>/dist/images/menu_cat_side.png" alt="サイドメニュー" srcset="<?php echo $wp_url ?>/dist/images/menu_cat_side.png 1x, <?php echo $wp_url ?>/dist/images/menu_cat_side@2x.png 2x">
@@ -136,11 +136,11 @@ get_header(); the_post(); ?>
     </div>
     <!-- ▲ 特上寿司 -->
 
-    <!-- ▼ にぎり -->
+    <!-- ▼ 定番寿司 -->
     <div id="nigiri" class="menu__list mb-5">
       <!-- ▼ 見出し -->
       <div class="menu__list-ttl">
-        <h3 class="menu__list-ttl-main mincho f-24 d-inline m-0">にぎり</h3>
+        <h3 class="menu__list-ttl-main mincho f-24 d-inline m-0">定番寿司</h3>
         <p class="menu__list-ttl-sub f-18 d-inline m-0 p-3">146<span class="small">円+税</span></p>
       </div>
       <!-- ▲ 見出し -->
@@ -188,7 +188,7 @@ get_header(); the_post(); ?>
       </div>
       <!-- ▲ メニュー一覧 -->
     </div>
-    <!-- ▲ にぎり -->
+    <!-- ▲ 定番寿司 -->
 
     <!-- ▼ サイドメニュー -->
     <div id="side" class="menu__list mb-5">

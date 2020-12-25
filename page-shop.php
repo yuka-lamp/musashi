@@ -63,7 +63,7 @@ get_header(); the_post(); ?>
 <!-- ▲ 三条本店 -->
 
 <!-- ▼ 京都駅八条口店 -->
-<section class="shop__item">
+<section class="shop__item mt-5">
   <div class="container-small">
     <h3 class="shop__item-ttl d-block text-center f-24 mincho">京都駅八条口店</h3>
     <div class="d-block d-lg-flex justify-content-between">
@@ -122,7 +122,7 @@ get_header(); the_post(); ?>
 <!-- ▲ 京都駅八条口店 -->
 
 <!-- ▼ 上堀川店 -->
-<section class="shop__item">
+<section class="shop__item mt-5">
   <div class="container-small">
     <h3 class="shop__item-ttl d-block text-center f-24 mincho">上堀川店</h3>
     <div class="d-block d-lg-flex justify-content-between">
@@ -167,7 +167,7 @@ get_header(); the_post(); ?>
 <!-- ▲ 上堀川店 -->
 
 <!-- ▼ porta店 -->
-<section class="shop__item">
+<section class="shop__item mt-5">
   <div class="container-small">
     <h3 class="shop__item-ttl d-block text-center f-24 mincho">porta店</h3>
     <div class="d-block d-lg-flex justify-content-between">

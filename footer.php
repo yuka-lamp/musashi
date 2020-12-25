@@ -57,7 +57,7 @@ $wp_url = get_template_directory_uri(); ?>
   <div class="footer__small bg-dark py-2">
     <div class="container">
       <div class="d-md-flex d-block justify-content-between">
-        <a class="small text-white" href="<?php echo $home ?>/privacy-policy/">プライバシーポリシー</a>
+        <!-- <a class="small text-white" href="<?php echo $home ?>/privacy-policy/">プライバシーポリシー</a> -->
         <p class="small text-white m-0">2020 (C) copyright All reserved.SUSHINOMUSASHI</p>
       </div>
     </div>
