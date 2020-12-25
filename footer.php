@@ -29,7 +29,7 @@ $wp_url = get_template_directory_uri(); ?>
             <a class="link-arrow text-info" href="<?php echo $home ?>/company/">会社紹介</a>
           </li>
           <li class="d-inline">
-            <a class="link-arrow text-info" href="<?php echo $home ?>/contact/">お問い合わせ</a>
+            <a class="link-arrow text-info" href="<?php echo $home ?>/link/">関連リンク</a>
           </li>
         </ul>
       </div>
