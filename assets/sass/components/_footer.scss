@@ -10,8 +10,10 @@
   .container {
     &.main {
       position: relative;
+      max-width: 90%;
       @include media-breakpoint-down(md) {
         padding: 0;
+        max-width: 100%;
       }
     }
   }

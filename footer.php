@@ -8,20 +8,28 @@ $wp_url = get_template_directory_uri(); ?>
   <div class="container main">
     <div class="d-md-flex d-block justify-content-between">
       <!-- ▼ 会社情報 -->
-      <div class="footer__info col-md-6">
+      <div class="footer__info col-md-8">
         <img src="<?php echo $wp_url ?>/dist/images/logo.png" alt="寿司のむさしのロゴ" srcset="<?php echo $wp_url ?>/dist/images/logo.png 1x, <?php echo $wp_url ?>/dist/images/logo@2x.png 2x">
         <div class="footer__info__address">
           <div class="row mb-2">
-            <p class="col-md-4 text-info m-0">三条本店</p>
-            <p class="col-md-8 text-info m-0">京都市中京区河原町通三条上ル恵比須町440</p>
+            <p class="col-4 col-md-3 text-info m-0">三条本店</p>
+            <p class="col-8 col-md-9 text-info m-0">京都市中京区河原町通三条上ル恵比須町440</p>
           </div>
           <div class="row mb-2">
-            <p class="col-md-4 text-info m-0">京都駅八条口店</p>
-            <p class="col-md-8 text-info m-0">京都市下京区東塩小路高倉町8-3京都駅八条口構内 アスティロード京都おもてなし小路</p>
+            <p class="col-4 col-md-3 text-info m-0">京都駅八条口店</p>
+            <p class="col-8 col-md-9 text-info m-0">京都市下京区東塩小路高倉町8-3京都駅八条口構内 アスティロード京都おもてなし小路</p>
           </div>
           <div class="row">
-            <p class="col-md-4 text-info m-0">キッチンセンター</p>
-            <p class="col-md-8 text-info m-0">京都市北区堀川通北山上ル</p>
+            <p class="col-4 col-md-3 text-info m-0">上堀川店<br><span class="small">（テイクアウト専門店）</span></p>
+            <p class="col-8 col-md-9 text-info m-0">京都府京都市北区紫竹下本町28</p>
+          </div>
+          <div class="row">
+            <p class="col-4 col-md-3 text-info m-0">Porta店<br><span class="small">（テイクアウト専門店）</span></p>
+            <p class="col-8 col-md-9 text-info m-0">京都市下京区烏丸通塩小路下る東塩小路町902番地 京都駅前地下街ポルタ内</p>
+          </div>
+          <div class="row">
+            <p class="col-4 col-md-3 text-info m-0">キッチンセンター</p>
+            <p class="col-8 col-md-9 text-info m-0">京都市北区堀川通北山上ル</p>
           </div>
         </div>
         <ul class="footer__info__link m-0 p-0">
@@ -37,10 +45,10 @@ $wp_url = get_template_directory_uri(); ?>
       <!-- ▼ SNSリンクボタン -->
       <div class="footer__sns col-md-3">
         <a class="d-inline-block mr-3" href="" target="_blank">
-          <img src="<?php echo $wp_url ?>/dist/images/icon_fb.png" alt="Facebook" srcset="<?php echo $wp_url ?>/dist/images/icon_fb.png 1x, <?php echo $wp_url ?>/dist/images/icon_fb@2x.png 2x">
+          <img src="<?php echo $wp_url ?>/dist/images/icon_fb.svg" alt="Facebook">
         </a>
         <a class="d-inline-block" href="" target="_blank">
-          <img src="<?php echo $wp_url ?>/dist/images/icon_inst.png" alt="Instagram" srcset="<?php echo $wp_url ?>/dist/images/icon_inst.png 1x, <?php echo $wp_url ?>/dist/images/icon_inst@2x.png 2x">
+          <img src="<?php echo $wp_url ?>/dist/images/icon_inst.svg" alt="Instagram">
         </a>
       </div>
       <!-- ▲ SNSリンクボタン -->
