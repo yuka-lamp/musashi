@@ -38,6 +38,8 @@ get_header(); the_post(); ?>
         <td class="athome__support-item main bg-light col-5">所在地</td>
         <td class="athome__support-item sub col-7">本社(三条本店)　京都市中京区河原町通三条上ル恵比須町440
           <br>京都駅八条口店　京都市下京区東塩小路高倉町8-3京都駅八条口構内 アスティロード京都おもてなし小路
+          <br>上堀川店<span class="small">（テイクアウト専門店）</span>　京都府京都市北区紫竹下本町28
+          <br>Porta店<span class="small">（テイクアウト専門店）</span>　京都市下京区烏丸通塩小路下る東塩小路町902番地 京都駅前地下街ポルタ内
           <br>キッチンセンター　京都市北区堀川通北山上ル</td>
       </tr>
     </table>

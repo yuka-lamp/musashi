@@ -49,7 +49,10 @@ get_header(); the_post(); ?>
         </div>
         <div class="table-lines d-block">
           <p class="shop__item-table-ttl text-primary mb-2">営業時間</p>
-          <p class="m-0">11:00～21:45（LO.21:30）<br>※最終入店は21:20</p>
+          <p class="m-0">11:00～21:45（LO.21:30）
+            <br>※ 最終入店は21:20です。
+            <br>※ 緊急事態宣言中は20時までの営業となります。
+          </p>
         </div>
         <div class="table-lines d-block">
           <p class="shop__item-table-ttl text-primary mb-2">定休日</p>
@@ -108,7 +111,11 @@ get_header(); the_post(); ?>
         </div>
         <div class="table-lines d-block">
           <p class="shop__item-table-ttl text-primary mb-2">営業時間</p>
-          <p class="m-0">10:30～21:45（LO.21:30）<br>※最終入店は21:20<br>※テイクアウトは9:00～21:45</p>
+          <p class="m-0">10:30～21:45（LO.21:30）
+            <br>※ 最終入店は21:20です。
+            <br>※ テイクアウトの営業時間は9:00～21:45です。
+            <br>※ 緊急事態宣言中は20時までの営業となります。
+          </p>
         </div>
         <div class="table-lines d-block">
           <p class="shop__item-table-ttl text-primary mb-2">定休日</p>
@@ -176,7 +183,7 @@ get_header(); the_post(); ?>
         <div class="shop__item-about-img">
           <img class="w-100" src="<?php echo $wp_url ?>/dist/images/top_shop_1.png" alt="porta店" srcset="<?php echo $wp_url ?>/dist/images/top_shop_1.png 1x, <?php echo $wp_url ?>/dist/images/top_shop_1@2x.png 2x">
         </div>
-        <p class="shop__item-about-text">Porta東海エリアにあるお持ち帰り専門店です。<br>定番の人気商品に加えて、ポルタ店限定のにぎり寿司も販売しております。ぜひ一度お立ち寄りくださいませ！</p>
+        <p class="shop__item-about-text">東エリアにあるお持ち帰り専門店です。<br>定番の人気商品に加えて、ポルタ店限定のにぎり寿司も販売しております。ぜひ一度お立ち寄りくださいませ！</p>
         <!-- ▼ マーク -->
         <div class="shop__item-about-mark">
           <div class="shop__item-about-mark-item text-center d-inline-block mr-2">
