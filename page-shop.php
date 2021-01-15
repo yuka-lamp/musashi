@@ -41,7 +41,7 @@ get_header(); the_post(); ?>
         </div>
         <div class="table-lines d-block">
           <p class="shop__item-table-ttl text-primary mb-2">電話番号</p>
-          <a href="tel:075-222-0634" class="underline f-16">075-222-0634</a>
+          <a href="tel:075-222-0634" class="underline f-16"><i class="fas fa-phone-square-alt mr-2 text-primary"></i>075-222-0634</a>
         </div>
         <div class="table-lines d-block">
           <p class="shop__item-table-ttl text-primary mb-2">座席数</p>
@@ -75,7 +75,7 @@ get_header(); the_post(); ?>
         <div class="shop__item-about-img">
           <img class="w-100" src="<?php echo $wp_url ?>/dist/images/top_shop_2.png" alt="京都駅八条口店" srcset="<?php echo $wp_url ?>/dist/images/top_shop_2.png 1x, <?php echo $wp_url ?>/dist/images/top_shop_2@2x.png 2x">
         </div>
-        <p class="shop__item-about-text">京都の町家をイメージしてシンプルで落ち着ける空間を作り、心より皆様のご来店をお待ちしております。昼間のピーク時間は12時～14時。夕方のピークは18時～20時30分頃です。その他の時間が狙い目です。</p>
+        <p class="shop__item-about-text">京都の町家をイメージしてシンプルで落ち着ける空間を作り、心より皆様のご来店をお待ちしております。</p>
         <!-- ▼ マーク -->
         <div class="shop__item-about-mark">
           <div class="shop__item-about-mark-item text-center d-inline-block mr-2">
@@ -103,7 +103,7 @@ get_header(); the_post(); ?>
         </div>
         <div class="table-lines d-block">
           <p class="shop__item-table-ttl text-primary mb-2">電話番号</p>
-          <a href="tel:075-662-0634" class="underline f-16">075-662-0634</a>
+          <a href="tel:075-662-0634" class="underline f-16"><i class="fas fa-phone-square-alt mr-2 text-primary"></i>075-662-0634</a>
         </div>
         <div class="table-lines d-block">
           <p class="shop__item-table-ttl text-primary mb-2">座席数</p>
@@ -111,9 +111,8 @@ get_header(); the_post(); ?>
         </div>
         <div class="table-lines d-block">
           <p class="shop__item-table-ttl text-primary mb-2">営業時間</p>
-          <p class="m-0">10:30～21:45（LO.21:30）
+          <p class="m-0">11:00～21:45（LO.21:30）
             <br>※ 最終入店は21:20です。
-            <br>※ テイクアウトの営業時間は9:00～21:45です。
             <br>※ 緊急事態宣言中は20時までの営業となります。
           </p>
         </div>
@@ -160,7 +159,7 @@ get_header(); the_post(); ?>
         </div>
         <div class="table-lines d-block">
           <p class="shop__item-table-ttl text-primary mb-2">電話番号</p>
-          <a href="tel:080-2424-0760" class="underline f-16">080-2424-0760</a>
+          <a href="tel:080-2424-0760" class="underline f-16"><i class="fas fa-phone-square-alt mr-2 text-primary"></i>080-2424-0760</a>
         </div>
         <div class="table-lines d-block">
           <p class="shop__item-table-ttl text-primary mb-2">受け取り時間</p>
@@ -181,7 +180,7 @@ get_header(); the_post(); ?>
       <!-- ▼ 写真 + 概要 -->
       <div class="shop__item-about">
         <div class="shop__item-about-img">
-          <img class="w-100" src="<?php echo $wp_url ?>/dist/images/top_shop_1.png" alt="porta店" srcset="<?php echo $wp_url ?>/dist/images/top_shop_1.png 1x, <?php echo $wp_url ?>/dist/images/top_shop_1@2x.png 2x">
+          <img class="w-100" src="<?php echo $wp_url ?>/dist/images/top_shop_4.png" alt="porta店" srcset="<?php echo $wp_url ?>/dist/images/top_shop_4.png 1x, <?php echo $wp_url ?>/dist/images/top_shop_4@2x.png 2x">
         </div>
         <p class="shop__item-about-text">東エリアにあるお持ち帰り専門店です。<br>定番の人気商品に加えて、ポルタ店限定のにぎり寿司も販売しております。ぜひ一度お立ち寄りくださいませ！</p>
         <!-- ▼ マーク -->
@@ -202,6 +201,10 @@ get_header(); the_post(); ?>
           <p class="shop__item-table-ttl text-primary mb-2">住所</p>
           <p class="mb-2 d-block">京都市下京区烏丸通塩小路下る東塩小路町902番地<br>京都駅前地下街ポルタ内</p>
           <a href="https://goo.gl/maps/8AHBeWvocK7S7WaJ8" target="_blank" class="link-arrow f-16">googlemapをみる</a>
+        </div>
+        <div class="table-lines d-block">
+          <p class="shop__item-table-ttl text-primary mb-2">電話番号</p>
+          <a href="tel:075-352-0634" class="underline f-16"><i class="fas fa-phone-square-alt mr-2 text-primary"></i>075-352-0634</a>
         </div>
         <div class="table-lines d-block">
           <p class="shop__item-table-ttl text-primary mb-2">受け取り時間</p>

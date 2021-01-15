@@ -34,7 +34,7 @@ get_header(); the_post(); ?>
       <?php while(have_posts()):the_post(); ?>
       <!-- ▼ ループするコンテンツ -->
       <div class="news-img__item col-12 col-md-4 mb-3">
-        <a class="d-block" hraf="<?php echo the_permalink(); ?>">
+        <a class="d-block" href="<?php echo the_permalink(); ?>">
           <div class="news-img__item__img">
               <?php if ( has_post_thumbnail()): //サムネイルがあったら ?>
                 <img class="w-100" src="<?php echo the_post_thumbnail_url($id, 'large'); ?>" alt="<?php echo $ttl ?>">

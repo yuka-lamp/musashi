@@ -99,7 +99,7 @@ $wp_url = get_template_directory_uri(); ?>
   </div> -->
   <!-- ▲ お知らせ -->
   <!-- ▼ キャンペーン画像 -->
-  <a class="mv__cam mincho d-none d-md-block" href="<?php echo $home ?>/athome/">
+  <a class="mv__cam mincho" href="<?php echo $home ?>/athome/">
     <img style="width: 223px; height: 222px;" src="<?php echo $wp_url ?>/dist/images/fix_takeout.png" alt="おうちdeむさし" srcset="<?php echo $wp_url ?>/dist/images/fix_takeout.png 1x, <?php echo $wp_url ?>/dist/images/fix_takeout@2x.png 2x">
   </a>
   <!-- ▲ キャンペーン画像 -->

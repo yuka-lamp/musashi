@@ -18,6 +18,12 @@
     background-size: cover;
     background-position: center;
     border-radius: 20px;
+    @include media-breakpoint-down(lg) {
+      height: 584px;
+      background: url("../images/mv_ipad.png");
+      background-size: cover;
+      background-position: center;
+    }
     @include media-breakpoint-down(sm) {
       height: 640px;
       background: url("../images/mv_sp.png");
@@ -55,6 +61,9 @@
     position: absolute;
     right: 0;
     bottom: 0;
+    @include media-breakpoint-down(lg) {
+      display: none;
+    }
   }
 }
 /*===================================================

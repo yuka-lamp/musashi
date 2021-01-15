@@ -2,13 +2,20 @@
  記事詳細
 ====================================================*/
 .post {
+  &-wrap {
+    margin: 0 auto;
+  }
+
   &-header {
     margin-bottom: 2rem;
   }
 
   &-thumbnail {
+    display: block;
     overflow: hidden;
     font-size: 0;
+    width: 100%;
+    margin: 0 auto 2rem;
   }
 
   &-ttl {
