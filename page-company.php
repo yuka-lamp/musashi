@@ -48,93 +48,93 @@ get_header(); the_post(); ?>
     <h2 class="ttl-2 mb-5 mt-5">沿革<span class="ttl-2-en en">History</span></h2>
     <div class="deco-1 history">
       <div class="d-block d-md-flex">
-        <p class="shop__item-table-ttl text-primary mb-2 col-12 col-md-3">昭和52年 3月</p>
-        <p class="d-block mb-0 col-12 col-md-9">廻る寿司［元禄寿司］を開店</p>
+        <p class="shop__item-table-ttl text-primary mb-1 col-12 col-md-3">昭和52年 3月</p>
+        <p class="d-block mb-3 col-12 col-md-9">廻る寿司［元禄寿司］を開店</p>
       </div>
       <div class="d-block d-md-flex">
-        <p class="shop__item-table-ttl text-primary mb-2 col-12 col-md-3">昭和53年 10月</p>
-        <p class="d-block mb-0 col-12 col-md-9">屋号を［寿しのむさし］に変更</p>
+        <p class="shop__item-table-ttl text-primary mb-1 col-12 col-md-3">昭和53年 10月</p>
+        <p class="d-block mb-3 col-12 col-md-9">屋号を［寿しのむさし］に変更</p>
       </div>
       <div class="d-block d-md-flex">
-        <p class="shop__item-table-ttl text-primary mb-2 col-12 col-md-3">昭和53年 10月</p>
-        <p class="d-block mb-0 col-12 col-md-9">寿しのむさし　洛北店を開店</p>
+        <p class="shop__item-table-ttl text-primary mb-1 col-12 col-md-3">昭和53年 10月</p>
+        <p class="d-block mb-3 col-12 col-md-9">寿しのむさし　洛北店を開店</p>
       </div>
       <div class="d-block d-md-flex">
-        <p class="shop__item-table-ttl text-primary mb-2 col-12 col-md-3">昭和53年 12月</p>
-        <p class="d-block mb-0 col-12 col-md-9">寿しのむさし　長岡店を開店</p>
+        <p class="shop__item-table-ttl text-primary mb-1 col-12 col-md-3">昭和53年 12月</p>
+        <p class="d-block mb-3 col-12 col-md-9">寿しのむさし　長岡店を開店</p>
       </div>
       <div class="d-block d-md-flex">
-        <p class="shop__item-table-ttl text-primary mb-2 col-12 col-md-3">昭和56年 12月</p>
-        <p class="d-block mb-0 col-12 col-md-9">寿しのむさし　四条店を開店</p>
+        <p class="shop__item-table-ttl text-primary mb-1 col-12 col-md-3">昭和56年 12月</p>
+        <p class="d-block mb-3 col-12 col-md-9">寿しのむさし　四条店を開店</p>
       </div>
       <div class="d-block d-md-flex">
-        <p class="shop__item-table-ttl text-primary mb-2 col-12 col-md-3">昭和59年 5月</p>
-        <p class="d-block mb-0 col-12 col-md-9">寿しのむさし　上堀川店を開店</p>
+        <p class="shop__item-table-ttl text-primary mb-1 col-12 col-md-3">昭和59年 5月</p>
+        <p class="d-block mb-3 col-12 col-md-9">寿しのむさし　上堀川店を開店</p>
       </div>
       <div class="d-block d-md-flex">
-        <p class="shop__item-table-ttl text-primary mb-2 col-12 col-md-3">昭和60年 11月</p>
-        <p class="d-block mb-0 col-12 col-md-9">本社ビルを竣工</p>
+        <p class="shop__item-table-ttl text-primary mb-1 col-12 col-md-3">昭和60年 11月</p>
+        <p class="d-block mb-3 col-12 col-md-9">本社ビルを竣工</p>
       </div>
       <div class="d-block d-md-flex">
-        <p class="shop__item-table-ttl text-primary mb-2 col-12 col-md-3">平成3年 8月</p>
-        <p class="d-block mb-0 col-12 col-md-9">寿しのむさし　紫明通店を開店</p>
+        <p class="shop__item-table-ttl text-primary mb-1 col-12 col-md-3">平成3年 8月</p>
+        <p class="d-block mb-3 col-12 col-md-9">寿しのむさし　紫明通店を開店</p>
       </div>
       <div class="d-block d-md-flex">
-        <p class="shop__item-table-ttl text-primary mb-2 col-12 col-md-3">平成4年 9月</p>
-        <p class="d-block mb-0 col-12 col-md-9">近鉄百貨店に魚河岸本舗（持帰り寿し）出店</p>
+        <p class="shop__item-table-ttl text-primary mb-1 col-12 col-md-3">平成4年 9月</p>
+        <p class="d-block mb-3 col-12 col-md-9">近鉄百貨店に魚河岸本舗（持帰り寿し）出店</p>
       </div>
       <div class="d-block d-md-flex">
-        <p class="shop__item-table-ttl text-primary mb-2 col-12 col-md-3">平成6年 6月</p>
-        <p class="d-block mb-0 col-12 col-md-9">寿しのむさし　三条本店　リニューアルオープン</p>
+        <p class="shop__item-table-ttl text-primary mb-1 col-12 col-md-3">平成6年 6月</p>
+        <p class="d-block mb-3 col-12 col-md-9">寿しのむさし　三条本店　リニューアルオープン</p>
       </div>
       <div class="d-block d-md-flex">
-        <p class="shop__item-table-ttl text-primary mb-2 col-12 col-md-3">平成7年 3月</p>
-        <p class="d-block mb-0 col-12 col-md-9">寿しのむさし　阪急桂駅西口店を開店</p>
+        <p class="shop__item-table-ttl text-primary mb-1 col-12 col-md-3">平成7年 3月</p>
+        <p class="d-block mb-3 col-12 col-md-9">寿しのむさし　阪急桂駅西口店を開店</p>
       </div>
       <div class="d-block d-md-flex">
-        <p class="shop__item-table-ttl text-primary mb-2 col-12 col-md-3">平成8年 3月</p>
-        <p class="d-block mb-0 col-12 col-md-9">寿しのむさし　阪急園田店を開店</p>
+        <p class="shop__item-table-ttl text-primary mb-1 col-12 col-md-3">平成8年 3月</p>
+        <p class="d-block mb-3 col-12 col-md-9">寿しのむさし　阪急園田店を開店</p>
       </div>
       <div class="d-block d-md-flex">
-        <p class="shop__item-table-ttl text-primary mb-2 col-12 col-md-3">平成10年 11月</p>
-        <p class="d-block mb-0 col-12 col-md-9">寿しのむさし　阪急伊丹店を開店</p>
+        <p class="shop__item-table-ttl text-primary mb-1 col-12 col-md-3">平成10年 11月</p>
+        <p class="d-block mb-3 col-12 col-md-9">寿しのむさし　阪急伊丹店を開店</p>
       </div>
 
       <div class="d-block d-md-flex">
-        <p class="shop__item-table-ttl text-primary mb-2 col-12 col-md-3">平成12年 11月</p>
-        <p class="d-block mb-0 col-12 col-md-9">寿しのむさし　上堀川店　リニューアルオープン</p>
+        <p class="shop__item-table-ttl text-primary mb-1 col-12 col-md-3">平成12年 11月</p>
+        <p class="d-block mb-3 col-12 col-md-9">寿しのむさし　上堀川店　リニューアルオープン</p>
       </div>
       <div class="d-block d-md-flex">
-        <p class="shop__item-table-ttl text-primary mb-2 col-12 col-md-3">平成13年 10月</p>
-        <p class="d-block mb-0 col-12 col-md-9">寿しのむさし　京都駅八条口店　オープン</p>
+        <p class="shop__item-table-ttl text-primary mb-1 col-12 col-md-3">平成13年 10月</p>
+        <p class="d-block mb-3 col-12 col-md-9">寿しのむさし　京都駅八条口店　オープン</p>
       </div>
       <div class="d-block d-md-flex">
-        <p class="shop__item-table-ttl text-primary mb-2 col-12 col-md-3">平成17年 2月</p>
-        <p class="d-block mb-0 col-12 col-md-9">寿しのむさし　上堀川店増床リニューアルオープン</p>
+        <p class="shop__item-table-ttl text-primary mb-1 col-12 col-md-3">平成17年 2月</p>
+        <p class="d-block mb-3 col-12 col-md-9">寿しのむさし　上堀川店増床リニューアルオープン</p>
       </div>
       <div class="d-block d-md-flex">
-        <p class="shop__item-table-ttl text-primary mb-2 col-12 col-md-3">平成18年 10月</p>
-        <p class="d-block mb-0 col-12 col-md-9">寿しのむさし　京都駅八条口店　オープン</p>
+        <p class="shop__item-table-ttl text-primary mb-1 col-12 col-md-3">平成18年 10月</p>
+        <p class="d-block mb-3 col-12 col-md-9">寿しのむさし　京都駅八条口店　オープン</p>
       </div>
       <div class="d-block d-md-flex">
-        <p class="shop__item-table-ttl text-primary mb-2 col-12 col-md-3">平成18年 10月</p>
-        <p class="d-block mb-0 col-12 col-md-9">寿しのむさし　三条本店　リニューアルオープン</p>
+        <p class="shop__item-table-ttl text-primary mb-1 col-12 col-md-3">平成18年 10月</p>
+        <p class="d-block mb-3 col-12 col-md-9">寿しのむさし　三条本店　リニューアルオープン</p>
       </div>
       <div class="d-block d-md-flex">
-        <p class="shop__item-table-ttl text-primary mb-2 col-12 col-md-3">平成23年 8月</p>
-        <p class="d-block mb-0 col-12 col-md-9">寿しのむさし　紫明通店を閉店</p>
+        <p class="shop__item-table-ttl text-primary mb-1 col-12 col-md-3">平成23年 8月</p>
+        <p class="d-block mb-3 col-12 col-md-9">寿しのむさし　紫明通店を閉店</p>
       </div>
       <div class="d-block d-md-flex">
-        <p class="shop__item-table-ttl text-primary mb-2 col-12 col-md-3">平成26年 10月</p>
-        <p class="d-block mb-0 col-12 col-md-9">イオンモール京都桂川店に［鮮魚むさし］を開店</p>
+        <p class="shop__item-table-ttl text-primary mb-1 col-12 col-md-3">平成26年 10月</p>
+        <p class="d-block mb-3 col-12 col-md-9">イオンモール京都桂川店に［鮮魚むさし］を開店</p>
       </div>
       <div class="d-block d-md-flex">
-        <p class="shop__item-table-ttl text-primary mb-2 col-12 col-md-3">平成27年 8月</p>
-        <p class="d-block mb-0 col-12 col-md-9">寿しのむさし　京都駅八条口店　リニューアルオープン</p>
+        <p class="shop__item-table-ttl text-primary mb-1 col-12 col-md-3">平成27年 8月</p>
+        <p class="d-block mb-3 col-12 col-md-9">寿しのむさし　京都駅八条口店　リニューアルオープン</p>
       </div>
       <div class="d-block d-md-flex">
-        <p class="shop__item-table-ttl text-primary mb-2 col-12 col-md-3">令和元年 6月</p>
-        <p class="d-block mb-0 col-12 col-md-9">寿しのむさし　上堀川店を閉店</p>
+        <p class="shop__item-table-ttl text-primary mb-1 col-12 col-md-3">令和2年 8月</p>
+        <p class="d-block mb-3 col-12 col-md-9">持ち帰り寿司専門店　寿しのむさし　ポルタ店　オープン</p>
       </div>
     </div>
     <!-- ▲ 沿革 -->

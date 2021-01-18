@@ -207,8 +207,9 @@ get_header(); the_post(); ?>
           <a href="tel:075-352-0634" class="underline f-16"><i class="fas fa-phone-square-alt mr-2 text-primary"></i>075-352-0634</a>
         </div>
         <div class="table-lines d-block">
-          <p class="shop__item-table-ttl text-primary mb-2">受け取り時間</p>
-          <p class="w-100 m-0">11:00～19:00</p>
+          <p class="shop__item-table-ttl text-primary mb-2">営業時間</p>
+          <p class="w-100 m-0">11:00～19:00
+            <br>※緊急事態宣言中は18時までの営業となります。</p>
         </div>
       </div>
       <!-- ▲ テーブル -->
