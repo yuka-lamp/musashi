@@ -37,7 +37,7 @@ get_header(); the_post(); ?>
       </div>
       <!-- ▲ 見出し -->
       <!-- ▼ メニュー一覧 -->
-      <div class="menu__list-inner d-flex flex-wrap justify-content-between">
+      <div class="menu__list-inner d-flex flex-wrap">
         <?php query_posts( array(
           'post_type' => 'menu_item', //カスタム投稿名を指定
           'taxonomy' => 'menu_cat',     //タクソノミー名を指定
@@ -91,7 +91,7 @@ get_header(); the_post(); ?>
       </div>
       <!-- ▲ 見出し -->
       <!-- ▼ メニュー一覧 -->
-      <div class="menu__list-inner d-flex flex-wrap justify-content-between">
+      <div class="menu__list-inner d-flex flex-wrap">
         <?php query_posts( array(
           'post_type' => 'menu_item', //カスタム投稿名を指定
           'taxonomy' => 'menu_cat',     //タクソノミー名を指定
@@ -145,7 +145,7 @@ get_header(); the_post(); ?>
       </div>
       <!-- ▲ 見出し -->
       <!-- ▼ メニュー一覧 -->
-      <div class="menu__list-inner d-flex flex-wrap justify-content-between">
+      <div class="menu__list-inner d-flex flex-wrap">
         <?php query_posts( array(
           'post_type' => 'menu_item', //カスタム投稿名を指定
           'taxonomy' => 'menu_cat',     //タクソノミー名を指定
@@ -198,7 +198,7 @@ get_header(); the_post(); ?>
       </div>
       <!-- ▲ 見出し -->
       <!-- ▼ メニュー一覧 -->
-      <div class="menu__list-inner d-flex flex-wrap justify-content-between">
+      <div class="menu__list-inner d-flex flex-wrap">
         <?php query_posts( array(
           'post_type' => 'menu_item', //カスタム投稿名を指定
           'taxonomy' => 'menu_cat',     //タクソノミー名を指定

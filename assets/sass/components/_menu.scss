@@ -99,8 +99,22 @@
       position: relative;
       width: 18%;
       margin-bottom: 5px;
+      margin-right: 2.4%;
       @include media-breakpoint-down(md) {
         width: 49%;
+        margin-right: 2%;
+      }
+
+      &:nth-child(2n) {
+        @include media-breakpoint-down(md) {
+          margin-right: 0;
+        }
+      }
+
+      &:nth-child(5n) {
+        @include media-breakpoint-up(md) {
+          margin-right: 0;
+        }
       }
 
       &-text {
