@@ -14,9 +14,9 @@ get_header(); the_post(); ?>
         <li class="nav-item">
           <a class="nav-link text-primary" href="<?php echo $home ?>/action/">取り組み</a>
         </li>
-        <li class="nav-item">
+        <!-- <li class="nav-item">
           <a class="nav-link active bg-primary text-white" href="<?php echo $home ?>/club/">むさし倶楽部</a>
-        </li>
+        </li> -->
       </ul>
     </div>
     <!-- ▲ カテゴリ-->

@@ -33,7 +33,7 @@ get_header(); the_post(); ?>
       <!-- ▼ 見出し -->
       <div class="menu__list-ttl">
         <h3 class="menu__list-ttl-main mincho f-24 d-inline m-0">金皿寿司</h3>
-        <p class="menu__list-ttl-sub f-18 d-inline m-0 p-3">509<span class="small">円(税込)</span></p>
+        <p class="menu__list-ttl-sub f-18 d-inline m-0 p-3">463<span class="small">円 (店内税込509円、テイクアウト税込500円)</span></p>
       </div>
       <!-- ▲ 見出し -->
       <!-- ▼ メニュー一覧 -->
@@ -87,7 +87,7 @@ get_header(); the_post(); ?>
       <!-- ▼ 見出し -->
       <div class="menu__list-ttl">
         <h3 class="menu__list-ttl-main mincho f-24 d-inline m-0">特上寿司</h3>
-        <p class="menu__list-ttl-sub f-18 d-inline m-0 p-3">400<span class="small">円(税込)</span></p>
+        <p class="menu__list-ttl-sub f-18 d-inline m-0 p-3">364<span class="small">円 (店内税込400円、テイクアウト税込394円)</span></p>
       </div>
       <!-- ▲ 見出し -->
       <!-- ▼ メニュー一覧 -->
@@ -141,7 +141,7 @@ get_header(); the_post(); ?>
       <!-- ▼ 見出し -->
       <div class="menu__list-ttl">
         <h3 class="menu__list-ttl-main mincho f-24 d-inline m-0">定番寿司</h3>
-        <p class="menu__list-ttl-sub f-18 d-inline m-0 p-3">160<span class="small">円(税込)</span></p>
+        <p class="menu__list-ttl-sub f-18 d-inline m-0 p-3">146<span class="small">円 (店内税込160円、テイクアウト税込158円)</span></p>
       </div>
       <!-- ▲ 見出し -->
       <!-- ▼ メニュー一覧 -->

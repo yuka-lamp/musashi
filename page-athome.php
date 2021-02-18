@@ -121,7 +121,6 @@ get_header(); the_post(); ?>
           <br>　 ＜北区＞中川・小野・杉阪・真弓・大森・雲ヶ畑
           <br>　 ＜右京区＞京北・嵯峨清滝・嵯峨水尾・嵯峨越畑・嵯峨樒原
           <br>　 ＜左京区＞花脊・広河原・久多・大原</p>
-        <p class="m-0">※ エリア外の場合はタクシーメーター運賃で配達いたします。</p>
       </div>
       <!-- ▲ デリバリーの対応地域 -->
       <!-- ▼ お持ち帰りの対応店舗 -->
@@ -131,7 +130,7 @@ get_header(); the_post(); ?>
         <h4 class="athome__support-ttl4 f-14">三条本店</h4>
         <table class="w-100">
           <tr class="athome__support-lines d-flex w-100">
-            <td class="athome__support-item main bg-light col-5">注文可能時間</td>
+            <td class="athome__support-item main bg-light col-5">受取可能時間</td>
             <td class="athome__support-item sub col-7">11:00~20:30</td>
           </tr>
           <tr class="athome__support-lines d-flex w-100">
@@ -144,7 +143,7 @@ get_header(); the_post(); ?>
         <h4 class="athome__support-ttl4 f-14">上堀川店</h4>
         <table class="w-100">
           <tr class="athome__support-lines d-flex w-100">
-            <td class="athome__support-item main bg-light col-5">注文可能時間</td>
+            <td class="athome__support-item main bg-light col-5">受取可能時間</td>
             <td class="athome__support-item sub col-7">11:00〜19:00</td>
           </tr>
           <tr class="athome__support-lines d-flex w-100">
@@ -157,12 +156,12 @@ get_header(); the_post(); ?>
         <h4 class="athome__support-ttl4 f-14">京都駅八条口店</h4>
         <table class="w-100">
           <tr class="athome__support-lines d-flex w-100">
-            <td class="athome__support-item main bg-light col-5">注文可能時間</td>
+            <td class="athome__support-item main bg-light col-5">受取可能時間</td>
             <td class="athome__support-item sub col-7">11:30〜19:00</td>
           </tr>
           <tr class="athome__support-lines d-flex w-100">
             <td class="athome__support-item main bg-light col-5">お支払い方法</td>
-            <td class="athome__support-item sub col-7">店頭払い</td>
+            <td class="athome__support-item sub col-7">オンライン決済、店頭払い</td>
           </tr>
         </table>
         <!-- ▲ 京都駅八条口店 -->

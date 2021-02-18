@@ -43,14 +43,14 @@ $wp_url = get_template_directory_uri(); ?>
       </div>
       <!-- ▲ 会社情報 -->
       <!-- ▼ SNSリンクボタン -->
-      <div class="footer__sns col-md-3">
+      <!-- <div class="footer__sns col-md-3">
         <a class="d-inline-block mr-3" href="" target="_blank">
           <img src="<?php echo $wp_url ?>/dist/images/icon_fb.svg" alt="Facebook">
         </a>
         <a class="d-inline-block" href="" target="_blank">
           <img src="<?php echo $wp_url ?>/dist/images/icon_inst.svg" alt="Instagram">
         </a>
-      </div>
+      </div> -->
       <!-- ▲ SNSリンクボタン -->
     </div>
     <!-- ▼ トップへ戻る -->

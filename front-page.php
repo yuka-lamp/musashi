@@ -65,7 +65,7 @@ get_header(); ?>
         <p class="top-concept-link-page text-white mincho">こ<br>だ<br>わ<br>り</p>
         <p class="top-concept-link-more text-white mincho m-0 f-16">詳しくみる</p>
       </a>
-      <a class="top-concept-link-inner" href="<?php echo $home ?>/menu/">
+      <a class="top-concept-link-inner" href="<?php echo $home ?>/athome/">
         <div class="top-concept-link-page">
           <div class="2lines d-flex">
             <p class="2lines-item text-white mincho mr-2">宅<br>配</p>
