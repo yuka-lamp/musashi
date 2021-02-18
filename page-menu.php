@@ -195,6 +195,7 @@ get_header(); the_post(); ?>
       <!-- ▼ 見出し -->
       <div class="menu__list-ttl">
         <h3 class="menu__list-ttl-main mincho f-24 d-inline m-0">サイドメニュー</h3>
+        <p class="menu__list-ttl-sub f-18 d-inline m-0 p-3"><span class="small">※店内注文のみ</span></p>
       </div>
       <!-- ▲ 見出し -->
       <!-- ▼ メニュー一覧 -->
