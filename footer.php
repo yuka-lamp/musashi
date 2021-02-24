@@ -8,9 +8,9 @@ $wp_url = get_template_directory_uri(); ?>
   <div class="container main">
     <div class="d-md-flex d-block justify-content-between">
       <!-- ▼ 会社情報 -->
-      <div class="footer__info col-md-8">
+      <div class="footer__info col-md-8 mb-0">
         <img src="<?php echo $wp_url ?>/dist/images/logo.png" alt="寿司のむさしのロゴ" srcset="<?php echo $wp_url ?>/dist/images/logo.png 1x, <?php echo $wp_url ?>/dist/images/logo@2x.png 2x">
-        <div class="footer__info__address">
+        <!-- <div class="footer__info__address">
           <div class="row mb-2">
             <p class="col-4 col-md-3 text-info m-0">三条本店</p>
             <p class="col-8 col-md-9 text-info m-0">京都市中京区河原町通三条上ル恵比須町440</p>
@@ -31,8 +31,8 @@ $wp_url = get_template_directory_uri(); ?>
             <p class="col-4 col-md-3 text-info m-0">キッチンセンター</p>
             <p class="col-8 col-md-9 text-info m-0">京都市北区堀川通北山上ル</p>
           </div>
-        </div>
-        <ul class="footer__info__link m-0 p-0">
+        </div> -->
+        <ul class="footer__info__link my-4 mx-0 p-0">
           <li class="d-inline mr-3">
             <a class="link-arrow text-info" href="<?php echo $home ?>/company/">会社紹介</a>
           </li>
