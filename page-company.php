@@ -28,7 +28,7 @@ get_header(); the_post(); ?>
       </tr>
       <tr class="athome__support-lines d-flex w-100">
         <td class="athome__support-item main bg-light col-5">売上高</td>
-        <td class="athome__support-item sub col-7">8億9570万円（平成29年度実績）</td>
+        <td class="athome__support-item sub col-7">839,844,548円（令和元年度実績）</td>
       </tr>
       <tr class="athome__support-lines d-flex w-100">
         <td class="athome__support-item main bg-light col-5">業務内容</td>

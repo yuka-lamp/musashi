@@ -133,7 +133,7 @@ get_header(); the_post(); ?>
             <td class="athome__support-item main bg-light col-5">受取可能時間</td>
             <td class="athome__support-item sub col-7">
               11:00~20:30
-              <br><span class="small text-info">※ 緊急事態宣言中は時短営業に付き19:30まで</span>
+              <br><span class="small text-info">※ 緊急事態宣言中は時短営業につき19:30まで</span>
             </td>
           </tr>
           <tr class="athome__support-lines d-flex w-100">
@@ -162,7 +162,7 @@ get_header(); the_post(); ?>
             <td class="athome__support-item main bg-light col-5">受取可能時間</td>
             <td class="athome__support-item sub col-7">
               11:30〜20:30
-              <br><span class="small text-info">※ 緊急事態宣言中は時短営業に付き19:30まで</span>
+              <br><span class="small text-info">※ 緊急事態宣言中は時短営業につき19:30まで</span>
             </td>
           </tr>
           <tr class="athome__support-lines d-flex w-100">
