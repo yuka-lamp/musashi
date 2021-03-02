@@ -19,12 +19,12 @@ $wp_url = get_template_directory_uri(); ?>
           <div class="bg-white">
             <h1 class="d-inline-block navbar-brand mr-4 p-0">
               <a class="d-inline-block " href="<?php echo $home ?>">
-              <img class="navbar-brand-img" src="<?php echo $wp_url ?>/dist/images/logo.png" alt="<?php get_the_title() ?>" srcset="<?php echo $wp_url ?>/dist/images/logo.png 1x, <?php echo $wp_url ?>/dist/images/logo@2x.png 2x">
+              <img class="navbar-brand-img" src="<?php echo $wp_url ?>/dist/images/logo.png" alt="【京都】寿しのむさし｜職人が握る地魚を使った回転寿司" srcset="<?php echo $wp_url ?>/dist/images/logo.png 1x, <?php echo $wp_url ?>/dist/images/logo@2x.png 2x">
               </a>
             </h1>
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#Navber" aria-controls="Navber" aria-expanded="false" aria-label="ナビゲーションの切替">
               <span class="navbar-toggler-icon"></span>
-              <p class="mb-0 text-white font-weight-bold">メニュー</p>
+              <br>メニュー
             </button>
           </div>
           <!-- ▲ メイン -->
