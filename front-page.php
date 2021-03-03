@@ -91,7 +91,7 @@ get_header(); ?>
       <div class="top-shop-item-text deco-1">
         <div class="top-shop-item-text-inner">
           <h3 class="mincho f-18 mb-3 text-dark">三条本店</h3>
-          <p class="m-0">〒604-8005<br>京都市中京区河原町三条上ル恵比須町440</p>
+          <p class="m-0">京都市中京区河原町三条上ル恵比須町440</p>
           <p class="m-0"><img class="mr-2 d-inline" src="<?php echo $wp_url ?>/dist/images/icon_walk.svg" alt="電車のアイコン">京都市営東西線 京都市役所前駅 3番口 徒歩4分</p>
           <a href="tel:080-2424-0760" class="d-block pt-3 mb-0 text-primary f-16"><i class="fas fa-phone-square-alt mr-2 text-primary"></i>075-222-0634</a>
         </div>
@@ -106,7 +106,7 @@ get_header(); ?>
       <div class="top-shop-item-text deco-1">
         <div class="top-shop-item-text-inner">
           <h3 class="mincho f-18 mb-3 text-dark">京都駅八条口店</h3>
-          <p class="m-0">〒600-8214<br>京都市下京区東塩小路高倉町8-3京都駅八条口構内 アスティロード京都おもてなし小路</p>
+          <p class="m-0">京都市下京区東塩小路高倉町8-3京都駅八条口構内 アスティロード京都おもてなし小路</p>
           <p class="m-0"><img class="mr-2 d-inline" src="<?php echo $wp_url ?>/dist/images/icon_car.svg" alt="電車のアイコン">京都駅八条口近く</p>
           <a href="tel:080-2424-0760" class="d-block pt-3 mb-0 text-primary f-16"><i class="fas fa-phone-square-alt mr-2 text-primary"></i>075-662-0634</a>
         </div>
@@ -122,7 +122,7 @@ get_header(); ?>
       <div class="top-shop-item-text deco-1">
         <div class="top-shop-item-text-inner">
           <h3 class="mincho f-18 mb-3 text-dark">上堀川店</h3>
-          <p class="m-0">〒603-8115<br>京都府京都市北区紫竹下本町28</p>
+          <p class="m-0">京都府京都市北区紫竹下本町28</p>
           <p class="m-0"><img class="mr-2 d-inline" src="<?php echo $wp_url ?>/dist/images/icon_car.svg" alt="電車のアイコン">京都市営地下鉄北大路駅から車で5分</p>
           <a href="tel:080-2424-0760" class="d-block pt-3 mb-0 text-primary f-16"><i class="fas fa-phone-square-alt mr-2 text-primary"></i>080-2424-0760</a>
         </div>

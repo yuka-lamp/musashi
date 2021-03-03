@@ -51,7 +51,7 @@ get_header(); the_post(); ?>
           <p class="shop__item-table-ttl text-primary mb-2">営業時間</p>
           <p class="m-0">11:00～21:45（LO.21:30）
             <br>※ 最終入店は21:20です。
-            <br>※ 緊急事態宣言中は20時までの営業となります。
+            <br>※ 現在は時短営業につき20:00閉店
           </p>
         </div>
         <div class="table-lines d-block">
@@ -113,7 +113,7 @@ get_header(); the_post(); ?>
           <p class="shop__item-table-ttl text-primary mb-2">営業時間</p>
           <p class="m-0">11:00～21:45（LO.21:30）
             <br>※ 最終入店は21:20です。
-            <br>※ 緊急事態宣言中は20時までの営業となります。
+            <br>※ 現在は時短営業につき20:00閉店
           </p>
         </div>
         <div class="table-lines d-block">
@@ -208,8 +208,8 @@ get_header(); the_post(); ?>
         </div>
         <div class="table-lines d-block">
           <p class="shop__item-table-ttl text-primary mb-2">営業時間</p>
-          <p class="w-100 m-0">11:00～19:00
-            <br>※緊急事態宣言中は18時までの営業となります。</p>
+          <p class="w-100 m-0">11:00～20:00
+            <br>※ 現在は時短営業につき18:00閉店</p>
         </div>
       </div>
       <!-- ▲ テーブル -->
