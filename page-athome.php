@@ -191,7 +191,7 @@ get_header(); the_post(); ?>
         <img class="athome__payment-card-img d-inline" src="<?php echo $wp_url ?>/dist/images/home_pay_visa.png" alt="visa" srcset="<?php echo $wp_url ?>/dist/images/home_pay_visa.png 1x, <?php echo $wp_url ?>/dist/images/home_pay_visa@2x.png 2x">
         <img class="athome__payment-card-img d-inline" src="<?php echo $wp_url ?>/dist/images/home_pay_master.png" alt="master card" srcset="<?php echo $wp_url ?>/dist/images/home_pay_master.png 1x, <?php echo $wp_url ?>/dist/images/home_pay_master@2x.png 2x">
         <img class="athome__payment-card-img d-inline" src="<?php echo $wp_url ?>/dist/images/home_pay_dc.png" alt="diners club" srcset="<?php echo $wp_url ?>/dist/images/home_pay_dc.png 1x, <?php echo $wp_url ?>/dist/images/home_pay_dc@2x.png 2x">
-        <img class="athome__payment-card-img d-inline" src="<?php echo $wp_url ?>/dist/images/home_pay_pay.png" alt="jcb" srcset="<?php echo $wp_url ?>/dist/images/home_pay_pay.png 1x, <?php echo $wp_url ?>/dist/images/home_pay_jcb@2x.png 2x">
+        <img class="athome__payment-card-img d-inline" src="<?php echo $wp_url ?>/dist/images/home_pay_jcb.png" alt="jcb" srcset="<?php echo $wp_url ?>/dist/images/home_pay_jcb.png 1x, <?php echo $wp_url ?>/dist/images/home_pay_jcb@2x.png 2x">
         <img class="athome__payment-card-img d-inline" src="<?php echo $wp_url ?>/dist/images/home_pay_ae.png" alt="AMERICAN EXPRESS" srcset="<?php echo $wp_url ?>/dist/images/home_pay_ae.png 1x, <?php echo $wp_url ?>/dist/images/home_pay_ae@2x.png 2x">
       </div>
     </div>
