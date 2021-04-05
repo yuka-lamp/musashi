@@ -112,8 +112,8 @@ get_header(); the_post(); ?>
         <div class="table-lines d-block">
           <p class="shop__item-table-ttl text-primary mb-2">営業時間</p>
           <p class="m-0">11:00～21:45（LO.21:30）
-            <br>※ 最終入店は21:20です。
-            <br>※ 現在は時短営業につき20:00閉店
+            <br>※ 現在は時短営業中につき11:00〜21:00
+            <br>※ 4月5日〜21日は朝10時00分からモーニング営業しております
           </p>
         </div>
         <div class="table-lines d-block">
@@ -208,8 +208,9 @@ get_header(); the_post(); ?>
         </div>
         <div class="table-lines d-block">
           <p class="shop__item-table-ttl text-primary mb-2">営業時間</p>
-          <p class="w-100 m-0">11:00～20:00
-            <br>※ 現在は時短営業につき18:00閉店</p>
+          <p class="w-100 m-0">11:00～20:30
+            <!-- <br>※ 現在は時短営業につき18:00閉店</p> -->
+          </p>
         </div>
       </div>
       <!-- ▲ テーブル -->
