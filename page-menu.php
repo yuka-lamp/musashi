@@ -5,35 +5,35 @@ get_header(); the_post(); ?>
 
 
 <section class="menu">
-  <div class="container-small deco-1">
+  <!-- ▼ カテゴリ -->
+  <div class="menu__cat">
+    <a href="#kin" class="menu__cat-item d-block text-center">
+      <img src="<?php echo $wp_url ?>/dist/images/menu_cat_kin.png" alt="金皿寿司" srcset="<?php echo $wp_url ?>/dist/images/menu_cat_kin.png 1x, <?php echo $wp_url ?>/dist/images/menu_cat_kin@2x.png 2x">
+      <p class="mincho f-16 mt-2 mb-0">金皿寿司</p>
+    </a>
+    <a href="#toku" class="menu__cat-item d-block text-center">
+      <img src="<?php echo $wp_url ?>/dist/images/menu_cat_toku.png" alt="特上寿司" srcset="<?php echo $wp_url ?>/dist/images/menu_cat_toku.png 1x, <?php echo $wp_url ?>/dist/images/menu_cat_toku@2x.png 2x">
+      <p class="mincho f-16 mt-2 mb-0">特上寿司</p>
+    </a>
+    <a href="#nigiri" class="menu__cat-item d-block text-center">
+      <img src="<?php echo $wp_url ?>/dist/images/menu_cat_nigiri.png" alt="定番寿司" srcset="<?php echo $wp_url ?>/dist/images/menu_cat_nigiri.png 1x, <?php echo $wp_url ?>/dist/images/menu_cat_nigiri@2x.png 2x">
+      <p class="mincho f-16 mt-2 mb-0">定番寿司</p>
+    </a>
+    <a href="#side" class="menu__cat-item d-block text-center">
+      <img src="<?php echo $wp_url ?>/dist/images/menu_cat_side.png" alt="サイドメニュー" srcset="<?php echo $wp_url ?>/dist/images/menu_cat_side.png 1x, <?php echo $wp_url ?>/dist/images/menu_cat_side@2x.png 2x">
+      <p class="mincho f-14 mt-2 mb-0">サイドメニュー</p>
+    </a>
+  </div>
+  <!-- ▲ カテゴリ -->
 
-    <!-- ▼ カテゴリ -->
-    <div class="menu__cat">
-      <a href="#kin" class="menu__cat-item d-block text-center">
-        <img src="<?php echo $wp_url ?>/dist/images/menu_cat_kin.png" alt="金皿寿司" srcset="<?php echo $wp_url ?>/dist/images/menu_cat_kin.png 1x, <?php echo $wp_url ?>/dist/images/menu_cat_kin@2x.png 2x">
-        <p class="mincho f-18 mt-2 mb-0">金皿寿司</p>
-      </a>
-      <a href="#toku" class="menu__cat-item d-block text-center">
-        <img src="<?php echo $wp_url ?>/dist/images/menu_cat_toku.png" alt="特上寿司" srcset="<?php echo $wp_url ?>/dist/images/menu_cat_toku.png 1x, <?php echo $wp_url ?>/dist/images/menu_cat_toku@2x.png 2x">
-        <p class="mincho f-18 mt-2 mb-0">特上寿司</p>
-      </a>
-      <a href="#nigiri" class="menu__cat-item d-block text-center">
-        <img src="<?php echo $wp_url ?>/dist/images/menu_cat_nigiri.png" alt="定番寿司" srcset="<?php echo $wp_url ?>/dist/images/menu_cat_nigiri.png 1x, <?php echo $wp_url ?>/dist/images/menu_cat_nigiri@2x.png 2x">
-        <p class="mincho f-18 mt-2 mb-0">定番寿司</p>
-      </a>
-      <a href="#side" class="menu__cat-item d-block text-center">
-        <img src="<?php echo $wp_url ?>/dist/images/menu_cat_side.png" alt="サイドメニュー" srcset="<?php echo $wp_url ?>/dist/images/menu_cat_side.png 1x, <?php echo $wp_url ?>/dist/images/menu_cat_side@2x.png 2x">
-        <p class="mincho f-16 mt-2 mb-0">サイドメニュー</p>
-      </a>
-    </div>
-    <!-- ▲ カテゴリ -->
+  <div class="container-small deco-1">
 
     <!-- ▼ 金皿寿司 -->
     <div id="kin" class="menu__list mb-5">
       <!-- ▼ 見出し -->
       <div class="menu__list-ttl">
         <h3 class="menu__list-ttl-main mincho f-24 d-inline m-0">金皿寿司</h3>
-        <p class="menu__list-ttl-sub f-18 d-inline m-0 p-3">463<span class="small">円 (店内税込509円、テイクアウト税込500円)</span></p>
+        <p class="menu__list-ttl-sub f-18 d-inline m-0 p-3">463<span class="small">円</span></p>
       </div>
       <!-- ▲ 見出し -->
       <!-- ▼ メニュー一覧 -->
@@ -79,6 +79,7 @@ get_header(); the_post(); ?>
         <?php wp_reset_query(); ?>
       </div>
       <!-- ▲ メニュー一覧 -->
+      <p class="small my-3">※ 店内税込509円、テイクアウト税込500円</p>
     </div>
     <!-- ▲ 金皿寿司 -->
 
@@ -87,7 +88,7 @@ get_header(); the_post(); ?>
       <!-- ▼ 見出し -->
       <div class="menu__list-ttl">
         <h3 class="menu__list-ttl-main mincho f-24 d-inline m-0">特上寿司</h3>
-        <p class="menu__list-ttl-sub f-18 d-inline m-0 p-3">364<span class="small">円 (店内税込400円、テイクアウト税込394円)</span></p>
+        <p class="menu__list-ttl-sub f-18 d-inline m-0 p-3">364<span class="small">円</span></p>
       </div>
       <!-- ▲ 見出し -->
       <!-- ▼ メニュー一覧 -->
@@ -133,6 +134,7 @@ get_header(); the_post(); ?>
         <?php wp_reset_query(); ?>
       </div>
       <!-- ▲ メニュー一覧 -->
+      <p class="small my-3">※ 店内税込400円、テイクアウト税込394円</p>
     </div>
     <!-- ▲ 特上寿司 -->
 
@@ -141,7 +143,7 @@ get_header(); the_post(); ?>
       <!-- ▼ 見出し -->
       <div class="menu__list-ttl">
         <h3 class="menu__list-ttl-main mincho f-24 d-inline m-0">定番寿司</h3>
-        <p class="menu__list-ttl-sub f-18 d-inline m-0 p-3">146<span class="small">円 (店内税込160円、テイクアウト税込158円)</span></p>
+        <p class="menu__list-ttl-sub f-18 d-inline m-0 p-3">146<span class="small">円</span></p>
       </div>
       <!-- ▲ 見出し -->
       <!-- ▼ メニュー一覧 -->
@@ -187,6 +189,7 @@ get_header(); the_post(); ?>
         <?php wp_reset_query(); ?>
       </div>
       <!-- ▲ メニュー一覧 -->
+      <p class="small my-3">※ 店内税込160円、テイクアウト税込158円</p>
     </div>
     <!-- ▲ 定番寿司 -->
 

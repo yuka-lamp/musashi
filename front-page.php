@@ -23,13 +23,13 @@ get_header(); ?>
         <a class="d-block" href="<?php echo the_permalink(); ?>">
           <div class="news-img__item__img">
               <?php if ( has_post_thumbnail()): //サムネイルがあったら ?>
-                <img class="w-100" src="<?php echo the_post_thumbnail_url($id, 'large'); ?>" alt="<?php echo $ttl ?>">
+                <img class="w-100 rounded" src="<?php echo the_post_thumbnail_url($id, 'large'); ?>" alt="<?php echo $ttl ?>">
                 <?php else: // サムネイルがなかったら ?>
-                <img class="w-100" src="<?php echo $wp_url ?>/dist/images/news_imgnone.png" alt="noimage" srcset="<?php echo $wp_url ?>/dist/images/news_imgnone.png 1x, <?php echo $wp_url ?>/dist/images/news_imgnone@2x.png 2x">
+                <img class="w-100 rounded" src="<?php echo $wp_url ?>/dist/images/news_imgnone.png" alt="noimage" srcset="<?php echo $wp_url ?>/dist/images/news_imgnone.png 1x, <?php echo $wp_url ?>/dist/images/news_imgnone@2x.png 2x">
               <?php endif; ?>
           </div>
           <div class="news-img__item__txt">
-            <p class="d-block text-weight-bold mt-4 mb-3"><?php the_title(); ?></p>
+            <p class="d-block text-weight-bold mt-3 mb-2"><?php the_title(); ?></p>
           </div>
         </a>
       </div>
